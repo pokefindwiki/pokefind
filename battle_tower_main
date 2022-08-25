@@ -21548,6 +21548,8 @@
 
     "Comment": "UU Repeat",
     "SendMessage": "You won! Starting next battle...",
+    "HealPokemon": [],
+    "Skip": 3,
     "Comment": "UU Battle Start",
     "HealPokemon": [],
     "Show": "Trainer1",
@@ -21595,6 +21597,8 @@
 
     "Comment": "UU+ Repeat",
     "SendMessage": "You won! Starting next battle...",
+    "HealPokemon": [],
+    "Skip": 3,
     "Comment": "UU+ Battle Start",
     "HealPokemon": [],
     "Show": "Trainer1",
