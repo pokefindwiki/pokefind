@@ -21618,9 +21618,9 @@
     "SendMessage": "Oh no, you lost!",
     "Leave": [],
     "GlobalHologram": [
-        935.5,
+        932.5,
         45.0,
-        920.5,
+        919.5,
         "&aThis is a test/demo of the new Battle Tower system.",
         "&aThere will likely be bugs, if you find one see if its known before reporting it.",
         "&cThere are intentionally no rewards.",
