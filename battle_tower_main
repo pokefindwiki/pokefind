@@ -21351,14 +21351,14 @@
     "CreateEntity": {
         "key": "Official1",
         "name": [
-            "&d&lLeague Official"
+            "&d&lBattle Tower Registrar"
         ],
         "location": {
             "world": "world",
-            "x": 989.5,
-            "y": 77.0,
-            "z": 1049.5,
-            "yaw": 780,
+            "x": 932.5,
+            "y": 43.0,
+            "z": 919.5,
+            "yaw": 180,
             "pitch": 0
         },
         "skin": {
@@ -21369,14 +21369,14 @@
     "CreateEntity": {
         "key": "Trainer1",
         "name": [
-            "&d&lTrainer"
+            "&d&lBattle Tower Test Trainer"
         ],
         "location": {
             "world": "world",
-            "x": 985.5,
-            "y": 77.0,
-            "z": 1046.5,
-            "yaw": -90,
+            "x": 932.5,
+            "y": 43.0,
+            "z": 914.5,
+            "yaw": -180,
             "pitch": 0
         },
         "skin": {
