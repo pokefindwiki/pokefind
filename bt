@@ -21532,7 +21532,6 @@
     "ProgressiveDisableCommand": [ "/pheal", "/pc", "/tpa", "/trade", "/cbattle", "/spawn", "/hub", "/lobby", "/warp" ],
     "SendMessage": "Checking for illegal Pokemon, moves, abilities and items...",
     "Start": "bt_uu_check",
-    "ApplyToBattles": [],
     "LimitParty": 3,
     "SetPokemonLevel": 50,
     "DisablePokemon": { 
@@ -21543,6 +21542,7 @@
     },
     "DisableMove": [ "sheer cold", "horn drill", "fissure", "guillotine" ],
     "Skip": "UU Battle Start",
+
 
     "Comment": "UU Repeat",
     "SendMessage": "You won! Starting next battle...",
@@ -21578,7 +21578,6 @@
     "ProgressiveDisableCommand": [ "/pheal", "/pc", "/tpa", "/trade", "/cbattle", "/spawn", "/hub", "/lobby", "/warp" ],
     "SendMessage": "Checking for illegal Pokemon, moves, abilities and items...",
     "Start": "bt_uu+_check",
-    "ApplyToBattles": [],
     "LimitParty": 3,
     "SetPokemonLevel": 50,
     "DisablePokemon": { 
