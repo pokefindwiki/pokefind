@@ -21344,8 +21344,7 @@
                             "defense": 1
                         }
                     }
-                ],
-                true
+                ]
             ],
     
     "CreateEntity": {
