@@ -21367,6 +21367,24 @@
         }
     },
     "CreateEntity": {
+        "key": "Trainer0",
+        "name": [
+            "&d&lBattle Tower Test Trainer"
+        ],
+        "location": {
+            "world": "world",
+            "x": 937.5,
+            "y": 43.0,
+            "z": 914.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDg3MTEzNjI1MDUsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YzhhNjdiMGM3NjlkYjQzZTJjODk0YWJiN2E3YjdmNzk3NWM5MmI2N2Q4ZDUwZjE0Y2Y3NWI5OWYzOGNmODkzIn19fQ==",
+            "signature": "Thqx9rwhGp7+Au6tDGKRrnLwde9Gj1kCy0RcFLjIMPcmUHGP+3kcvsrp1JC3E2Xkq2GlAK/ruJuRodbRJcvDFvzYC7sxD5J+7EQPgfvKRgKMGKOQqnRKctDBrCrhTt3dUOuvVUsvw0PgizQTYtNV5wbTy5tEKDkSDkoD+BC6hVA/kyOPWWd3ZMBKEk6ue1DIUSJYp8TCXZ6H7baG6sA8H4oRs+vzaIE5xVNm2CFM7eLR4kCNxWgCpNdyXugKmXEh3X2nODCQen+wpcrRK+hgIn2LLXi9EMsMN7a/JXcrC5KBIPRZa4XpxRjHcYBEbHuFzNwPL1QAUiIH5N9CPRTFAUZsjTaQp/Eb/AZAQApmdcE8pv8jHy3snUZbf/DzkIduyv4UuRNr0spTG9x1Gv5QhwY6sSQwHfuREh0onJD66FR2AkFSIA5JQX4Xe6YKMdpCeuqece9kCdXw1KWCPWRsGBfQGakvF6kV5lRx0haRt6PV0J463DpPVKByUacNZL9KSHkBygAh4Ak4FQ7iEpfLwDcja/5CtByVKjYF3rnWzAGGZdetcU0joplvAOgLrGg8dIwbiEHDPm7uuiP7hqUe5/rVl/yts75j2WlpL4BWpikxLSk+e8iqyDgNI6G/sYSbHu1Y2nij8AgqOvi49lzlcqhH7QXv48717IGX260/lWQ="
+        }
+    },
+    "CreateEntity": {
         "key": "Trainer1",
         "name": [
             "&d&lBattle Tower Test Trainer"
@@ -21385,6 +21403,7 @@
         }
     },
     "Show": {
+        "Trainer0": false,
         "Trainer1": false,
         "Official1": true
     },
@@ -21546,23 +21565,30 @@
     "Skip": "UU_Battle_Start",
 
 
-    "Comment": "UU_Repeat",
-    "SendMessage": "You won! Starting next battle...",
-    "HealPokemon": [],
-    "Skip": 3,
     "Comment": "UU_Battle_Start",
     "HealPokemon": [],
-    "Show": "Trainer1",
+    "Show": "Trainer0",
+    "Wait": 1.0,
+    "MoveEntity": [
+        "Trainer0",
+        932.5,
+        43.0,
+        914.5
+    ],
+    "Show": {
+        "Trainer1": true,
+        "Trainer0": false
+    },
     "BattleNpc": [
         "Trainer1",
         {
             "&c&lBT Test Trainer": "I challenge you!"
         },
         {
-            "&c&lBT Test Trainer": "Guess I'm blasting off again..."
+            "&c&lBT Test Trainer": "......"
         },
         {
-            "&c&lBT Test Trainer": "Poor twerp! Hand over your Pokemon!"
+            "&c&lBT Test Trainer": "..."
         },
         3,
         "Battle_Tower_Tier_1",
@@ -21572,9 +21598,8 @@
             "conditional": true
         }
     ],
-    "Skip": "UU_Repeat",
-    "Skip": "Lose",
-    "Leave": [],
+    "Skip": "UnderUsed Battle Won",
+    "Skip": "Battle Lost",
     
 
 
@@ -21594,39 +21619,86 @@
     "DisableMove": [ "sheer cold", "horn drill", "fissure", "guillotine" ],
     "Skip": "UU+_Battle_Start",
 
-    "Comment": "UU+_Repeat",
-    "SendMessage": "You won! Starting next battle...",
-    "HealPokemon": [],
-    "Skip": 3,
+
+
     "Comment": "UU+_Battle_Start",
     "HealPokemon": [],
-    "Show": "Trainer1",
+    "Show": "Trainer0",
+    "Wait": 1.0,
+    "MoveEntity": [
+        "Trainer0",
+        932.5,
+        43.0,
+        914.5
+    ],
+    "Show": {
+        "Trainer1": true,
+        "Trainer0": false
+    },
     "BattleNpc": [
         "Trainer1",
         {
             "&c&lBT Test Trainer": "I challenge you!"
         },
         {
-            "&c&lBT Test Trainer": "Guess I'm blasting off again..."
+            "&c&lBT Test Trainer": "......"
         },
         {
-            "&c&lBT Test Trainer": "Poor twerp! Hand over your Pokemon!"
+            "&c&lBT Test Trainer": "..."
         },
         3,
-        "Battle_Tower_Tier_1",
+        "Battle_Tower_Tier_2",
         {
             "automatically_start": true,
             "exp_multiplier": 0,
             "conditional": true
         }
     ],
-    "Skip": "UU+_Repeat",
-    "Skip": "Lose",
+    "Skip": "UU+ Battle Won",
+    "Skip": "Battle Lost",
 
-    "Comment": "Lose",
-    "SendMessage": "Dang... I lost.",
+    "Comment": "UnderUsed Battle Won",
+    "Show": {
+        "Trainer0": false,
+        "Trainer1": false
+    },
     "HealPokemon": [],
-    "Leave": [],
+    "Add": [ "bt_round", 1, true ],
+    "Add": [ "bt_round_temp", 1 ],
+    "SendMessage": "Congratulations on winning round [bt_round]!",
+    "Skip": "UU_Battle_Start,",
+
+
+    "Comment": "UU+ Battle Won",
+    "Show": {
+        "Trainer0": false,
+        "Trainer1": false
+    },
+    "HealPokemon": [],
+    "Add": [ "bt_round", 1, true ],
+    "Add": [ "bt_round_temp", 1 ],
+    "SendMessage": "Congratulations on winning round [bt_round]!",
+    "Skip": "UU+_Battle_Start,",
+
+
+    "Comment": "Battle Lost",
+    "Show": {
+        "Trainer0": false,
+        "Trainer1": false
+    },
+    "HealPokemon": [],
+    "SendMessage": "You lose.",
+    "Set": [ "bt_round", 0, true ],
+    "Set": [ "bt_round_temp", 0 ],
+    "Teleport": [
+        932.5,
+        43.0,
+        919.5
+    ],
+    "Leave": []
+
+
+
     "GlobalHologram": [
         932.5,
         45.0,
