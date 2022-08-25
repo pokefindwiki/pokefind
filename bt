@@ -11755,7 +11755,7 @@
                         "moves": [
                             "calm mind",
                             "dazzling gleam",
-                            "mornings sun",
+                            "morning sun",
                             "psyshock"
                         ],
                         "nature": "timid",
@@ -12131,7 +12131,7 @@
                         ],
                         "nature": "lonely",
                         "ability": "sturdy",
-                        "item": "cutsap berry",
+                        "item": "custap berry",
                         "ivs": "max",
                         "evs": {
                             "hp": 1,
@@ -17305,7 +17305,7 @@
                         "species": "seviper",
                         "level": 100,
                         "moves": [
-                            "spoison jab",
+                            "poison jab",
                             "aqua tail",
                             "earthquake",
                             "sucker punch"
@@ -17327,7 +17327,7 @@
                         "species": "seviper",
                         "level": 100,
                         "moves": [
-                            "spoison jab",
+                            "poison jab",
                             "aqua tail",
                             "earthquake",
                             "sucker punch"
@@ -19238,7 +19238,7 @@
                         "moves": [
                             "leaf storm",
                             "sludge bomb",
-                            "syntheis",
+                            "synthesis",
                             "sleep powder"
                         ],
                         "nature": "timid",
