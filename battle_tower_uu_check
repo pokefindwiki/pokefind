@@ -1,0 +1,29 @@
+{
+    "Key": "bt_uu_check",
+    "If": [],
+    "HasPokemon": { 
+        "species": [ "Alakazam", "Alolan Ninetales", "Azelf", "Azumarill", "Blaziken", "Blissey", "Breloom", "Celebi", "Chansey", "Clefable", "Cloyster", "Cresselia", "Darkrai", "Deoxys", "Dialga", "Dragonite", "Dugtrio", "Froslass", "Garchomp", "Gengar", "Giratina", "Gliscor", "Groudon", "Gyarados", "Heatran", "Hippowdon", "Ho-Oh", "Jirachi", "Kingdra", "Kyogre", "Latias", "Latios", "Lucario", "Lugia", "Magnezone", "Mamoswine", "Manaphy", "Metagross", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Salamence", "Scizor", "Shaymin", "Skarmory", "Staraptor", "Starmie", "Tangrowth", "Tentacruel", "Togekiss", "Tyranitar", "Weavile", "Wobbuffet", "Zapdos" ]
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 1,
+    "Leave": "battle_tower",
+    "Leave": [],
+    "If": [],
+    "HasPokemon": { 
+        "species": "rotom",
+        "form": "wash_rotom"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 1,
+    "Leave": "battle_tower",
+    "Leave": [],
+    "If": [],
+    "HasPokemon": { 
+        "skin": [ "Anniversary", "Shadow" ]
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 1,
+    "Leave": "battle_tower",
+    "Leave": [],
+    "SendMessage": "Check Passed! Good luck!"
+}
