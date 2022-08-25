@@ -21540,7 +21540,7 @@
         "skin": [ "Anniversary", "Shadow" ]
     },
     "DisablePokemon": { 
-        "species": [ "Alakazam", "Alolan Ninetales", "Azelf", "Azumarill", "Blaziken", "Blissey", "Breloom", "Celebi", "Chansey", "Clefable", "Cloyster", "Cresselia", "Darkrai", "Deoxys", "Dialga", "Dragonite", "Dugtrio", "Froslass", "Garchomp", "Gengar", "Giratina", "Gliscor", "Groudon", "Gyarados", "Heatran", "Hippowdon", "Ho-Oh", "Jirachi", "Kingdra", "Kyogre", "Latias", "Latios", "Lucario", "Lugia", "Magnezone", "Mamoswine", "Manaphy", "Metagross", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Salamence", "Scizor", "Shaymin", "Skarmory", "Staraptor", "Starmie", "Tangrowth", "Tentacruel", "Togekiss", "Tyranitar", "Weavile", "Wobbuffet", "Zapdos" ]
+        "species": [ "Alakazam", "Alolan Ninetales", "Arceus", "Azelf", "Azumarill", "Blaziken", "Blissey", "Breloom", "Celebi", "Chansey", "Clefable", "Cloyster", "Cresselia", "Darkrai", "Deoxys", "Dialga", "Dragonite", "Dugtrio", "Froslass", "Garchomp", "Gengar", "Giratina", "Gliscor", "Groudon", "Gyarados", "Heatran", "Hippowdon", "Ho-Oh", "Jirachi", "Kingdra", "Kyogre", "Latias", "Latios", "Lucario", "Lugia", "Magnezone", "Mamoswine", "Manaphy", "Metagross", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Salamence", "Scizor", "Shaymin", "Skarmory", "Staraptor", "Starmie", "Tangrowth", "Tentacruel", "Togekiss", "Tyranitar", "Weavile", "Wobbuffet", "Zapdos" ]
     },
     "DisableMove": [ "sheer cold", "horn drill", "fissure", "guillotine" ],
     "Skip": "UU Battle Start",
@@ -21549,6 +21549,7 @@
     "Comment": "UU Repeat",
     "SendMessage": "You won! Starting next battle...",
     "Comment": "UU Battle Start",
+    "HealPokemon": [],
     "Show": "Trainer1",
     "BattleNpc": [
         "Trainer1",
@@ -21571,6 +21572,7 @@
     ],
     "Skip": "UU Repeat",
     "SendMessage": "Oh no, you lost!",
+    "HealPokemon": [],
     "Leave": [],
     
 
@@ -21594,6 +21596,7 @@
     "Comment": "UU+ Repeat",
     "SendMessage": "You won! Starting next battle...",
     "Comment": "UU+ Battle Start",
+    "HealPokemon": [],
     "Show": "Trainer1",
     "BattleNpc": [
         "Trainer1",
@@ -21616,6 +21619,7 @@
     ],
     "Skip": "UU+ Repeat",
     "SendMessage": "Oh no, you lost!",
+    "HealPokemon": [],
     "Leave": [],
     "GlobalHologram": [
         932.5,
