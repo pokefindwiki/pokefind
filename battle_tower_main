@@ -21666,7 +21666,7 @@
     "Add": [ "bt_round", 1, true ],
     "Add": [ "bt_round_temp", 1 ],
     "SendMessage": "Congratulations on winning round [bt_round]!",
-    "Skip": "UU_Battle_Start,",
+    "Skip": "UU_Battle_Start",
 
 
     "Comment": "UU+ Battle Won",
@@ -21678,7 +21678,7 @@
     "Add": [ "bt_round", 1, true ],
     "Add": [ "bt_round_temp", 1 ],
     "SendMessage": "Congratulations on winning round [bt_round]!",
-    "Skip": "UU+_Battle_Start,",
+    "Skip": "UU+_Battle_Start",
 
 
     "Comment": "Battle Lost",
