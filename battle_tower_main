@@ -21569,13 +21569,12 @@
         {
             "automatically_start": true,
             "exp_multiplier": 0,
-            "conditional": true
+            "conditional": true,
+            "hardcore": true
         }
     ],
     "Skip": "UU Repeat",
-    "SendMessage": "Oh no, you lost!",
-    "HealPokemon": [],
-    "Leave": [],
+    "Skip": "Lose",
     
 
 
@@ -21622,7 +21621,10 @@
         }
     ],
     "Skip": "UU+ Repeat",
-    "SendMessage": "Oh no, you lost!",
+    "Skip": "Lose",
+
+    "Comment": "Lose",
+    "SendMessage": "Dang... I lost.",
     "HealPokemon": [],
     "Leave": [],
     "GlobalHologram": [
