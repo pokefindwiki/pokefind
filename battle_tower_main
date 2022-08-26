@@ -21482,7 +21482,7 @@
         "Battle Tower Ban Lists",
         6,
         {
-        "0": {
+        "4": {
                 "name": "&f&lUU Ban List",
                 "description": [
                     "",
@@ -21493,7 +21493,7 @@
                 ],
                 "material": "poke ball"
             },
-        "9": {
+        "13": {
             "name": "&f&lUU Ban List",
             "description": [
                 "",
@@ -21509,7 +21509,7 @@
                 ],
                 "material": "poke ball"
             },
-        "18": {
+        "22": {
             "name": "&f&lUU+ Ban List",
             "description": [
                 "",
@@ -21523,7 +21523,7 @@
                 "Sharpness": 5
             }
         },
-        "27": {
+        "31": {
             "name": "&f&lUU+ Ban List",
             "description": [
                 "",
@@ -21542,7 +21542,7 @@
                 "Sharpness": 5
             }
         },
-        "2": {
+        "6": {
             "name": "&f&lOU Ban List",
             "description": [
                 "",
@@ -21553,7 +21553,7 @@
             ],
             "material": "great ball"
         },
-        "11": {
+        "15": {
             "name": "&f&lOU Ban List",
             "description": [
                 "",
@@ -21569,7 +21569,7 @@
                 ],
                 "material": "great ball"
             },
-        "20": {
+        "24": {
             "name": "&f&lOU+ Ban List",
             "description": [
                 "",
@@ -21583,7 +21583,7 @@
                 "Sharpness": 5
             }
         },
-        "29": {
+        "33": {
             "name": "&f&lOU+ Ban List",
             "description": [
                 "",
@@ -21599,6 +21599,60 @@
                 "Aggron, Charizard, Dragonite, Flygon, Scizor, Typhlosion, Bastiodon, Breloom, Empoleon, Exeggutor, Houndoom, Luxray, Mamoswine, Rampardos, Roserade, Sceptile, Togekiss, Toxicroak, Venusaur, Vespiquen, Weedle, Druddigon, Gliscor, Gothitelle, Hippowdon, Kingdra, Lapras, Scolipede, Tentacruel, Aerodactyl, Crobat, Froslass, Gallade, Hydreigon, Musharna, Serperior, Slowbro, Slowking, Torterra, Alomomola, Bouffalant, Crustle, Donphan, Gyarados, Ludicolo, Porygon2, Tangrowth, Torkoal"
             ],
             "material": "great ball",
+            "enchantments": {
+                "Sharpness": 5
+            }
+        },
+        "8": {
+            "name": "&f&lUbers Ban List",
+            "description": [
+                "",
+                "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure, Swagger, Double Team, Minimize",
+                ""
+            ],
+            "material": "ultra ball"
+        },
+        "17": {
+            "name": "&f&lUbers Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "Gen 5 Pokemon(Until Gen 5 Release)",
+                "All Anniversary Pokemon",
+                "All Shadow Pokemon",
+                "All WoC Pokemon",
+                ""
+                ],
+                "material": "ultra ball"
+            },
+        "26": {
+            "name": "&f&lUbers+ Ban List",
+            "description": [
+                "",
+                "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure, Swagger, Double Team, Minimize",
+                ""
+            ],
+            "material": "ultra ball",
+            "enchantments": {
+                "Sharpness": 5
+            }
+        },
+        "35": {
+            "name": "&f&lUbers+ Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "Gen 5 Pokemon(Until Gen 5 Release)",
+                "All Shadow Pokemon",
+                "All WoC Pokemon",
+                "",
+                "Allowed Anniversary Pokemon:",
+                "All Anniversary Pokemon allowed in OU+",
+                "Gengar, Metagross, Salamence, Tyranitar, Garchomp, Starmie, Excadrill, Golurk, Infernape, Meganium, Slaking, Archeops, Chandelure, Chimecho, Clefable, Eelektross, Muk, Porygon-Z"
+            ],
+            "material": "ultra ball",
             "enchantments": {
                 "Sharpness": 5
             }
