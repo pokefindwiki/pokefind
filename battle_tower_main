@@ -21482,7 +21482,7 @@
         "Battle Tower Ban Lists",
         6,
         {
-        "9": {
+        "0": {
                 "name": "&f&lUU Ban List",
                 "description": [
                     "",
@@ -21493,7 +21493,7 @@
                 ],
                 "material": "poke ball"
             },
-        "18": {
+        "9": {
             "name": "&f&lUU Ban List",
             "description": [
                 "",
@@ -21509,13 +21509,23 @@
                 ],
                 "material": "poke ball"
             },
-        "27": {
+        "18": {
             "name": "&f&lUU+ Ban List",
             "description": [
                 "",
                 "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
                 "",
                 "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure",
+                ""
+            ],
+            "material": "poke ball",
+            "enchantments": {
+                "Sharpness": 5
+            }
+        },
+        "27": {
+            "name": "&f&lUU+ Ban List",
+            "description": [
                 "",
                 "The following Pokemon are banned:",
                 "",
@@ -21532,7 +21542,7 @@
                 "Sharpness": 5
             }
         },
-        "11": {
+        "2": {
             "name": "&f&lOU Ban List",
             "description": [
                 "",
@@ -21543,7 +21553,7 @@
             ],
             "material": "great ball"
         },
-        "20": {
+        "11": {
             "name": "&f&lOU Ban List",
             "description": [
                 "",
@@ -21559,13 +21569,22 @@
                 ],
                 "material": "great ball"
             },
-        "29": {
+        "20": {
             "name": "&f&lOU+ Ban List",
             "description": [
                 "",
                 "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
                 "",
                 "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure, Swagger",
+                ""
+            ],
+            "material": "great ball",
+            "enchantments": {
+                "Sharpness": 5
+            },
+        "29": {
+            "name": "&f&lOU+ Ban List",
+            "description": [
                 "",
                 "The following Pokemon are banned:",
                 "",
