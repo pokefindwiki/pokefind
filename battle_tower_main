@@ -21486,6 +21486,8 @@
                 "name": "&f&lUU Ban List",
                 "description": [
                     "",
+                    "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
+                    "",
                     "The following Pokemon are banned:",
                     "",
                     "Gen 5 Pokemon(Until Gen 5 Release)",
@@ -21504,6 +21506,8 @@
         "19": {
             "name": "&f&lUU+ Ban List",
             "description": [
+                "",
+                "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
                 "",
                 "The following Pokemon are banned:",
                 "",
@@ -21551,7 +21555,68 @@
     "Comment": "UU_Battle_Check",
     "ProgressiveDisableCommand": [ "/pheal", "/pc", "/tpa", "/trade", "/cbattle", "/spawn", "/hub", "/lobby", "/warp" ],
     "SendMessage": "Checking for illegal Pokemon, moves, abilities and items...",
-    "Start": "bt_uu_check",
+    "If": [],
+    "HasPokemon": { 
+        "species": [ "Alakazam", "Alolan Ninetales", "Arceus", "Azelf", "Azumarill", "Blaziken", "Blissey", "Breloom", "Celebi", "Chansey", "Clefable", "Cloyster", "Cresselia", "Darkrai", "Deoxys", "Dialga", "Dragonite", "Dugtrio", "Froslass", "Garchomp", "Gengar", "Giratina", "Gliscor", "Groudon", "Gyarados", "Heatran", "Hippowdon", "Ho-Oh", "Jirachi", "Kingdra", "Kyogre", "Latias", "Latios", "Lucario", "Lugia", "Magnezone", "Mamoswine", "Manaphy", "Metagross", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Salamence", "Scizor", "Shaymin", "Skarmory", "Staraptor", "Starmie", "Tangrowth", "Tentacruel", "Togekiss", "Tyranitar", "Weavile", "Wobbuffet", "Zapdos" ]
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasForm": "wash_rotom",
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Drizzle"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Drought"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Sand Stream"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Snow Warning"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+
+    "If": [],
+    "HasPokemon": { 
+        "skin": [ "Anniversary", "Shadow" ]
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+    "SendMessage": "Check Passed! Good luck!",
     "LimitParty": 3,
     "SetPokemonLevel": 50,
     "DisablePokemon": { 
@@ -21606,7 +21671,58 @@
     "Comment": "UU+_Battle_Check",
     "ProgressiveDisableCommand": [ "/pheal", "/pc", "/tpa", "/trade", "/cbattle", "/spawn", "/hub", "/lobby", "/warp" ],
     "SendMessage": "Checking for illegal Pokemon, moves, abilities and items...",
-    "Start": "bt_uu+_check",
+    "If": [],
+    "HasPokemon": { 
+        "species": [ "Alakazam", "Alolan Ninetales", "Arceus", "Azelf", "Azumarill", "Blaziken", "Blissey", "Breloom", "Celebi", "Chansey", "Clefable", "Cloyster", "Cresselia", "Darkrai", "Deoxys", "Dialga", "Dragonite", "Dugtrio", "Froslass", "Garchomp", "Gengar", "Giratina", "Gliscor", "Groudon", "Gyarados", "Heatran", "Hippowdon", "Ho-Oh", "Jirachi", "Kingdra", "Kyogre", "Latias", "Latios", "Lucario", "Lugia", "Magnezone", "Mamoswine", "Manaphy", "Metagross", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Salamence", "Scizor", "Shaymin", "Skarmory", "Staraptor", "Starmie", "Tangrowth", "Tentacruel", "Togekiss", "Tyranitar", "Weavile", "Wobbuffet", "Zapdos" ]
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasForm": "wash_rotom",
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Drizzle"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Drought"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Sand Stream"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Snow Warning"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": "battle_tower",
+    "Leave": [],
+    
     "LimitParty": 3,
     "SetPokemonLevel": 50,
     "DisablePokemon": { 
