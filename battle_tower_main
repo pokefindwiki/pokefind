@@ -21482,18 +21482,18 @@
         "Battle Tower Ban Lists",
         6,
         {
-        "10": {
+        "9": {
                 "name": "&f&lUU Ban List",
                 "description": [
                     "",
                     "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
                     "",
-                    "The following moves are bammed: Sheer Cold, Guillotine, Horn Drill, Fissure",
+                    "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure, Swagger",
                     ""
                 ],
                 "material": "poke ball"
             },
-        "19": {
+        "18": {
             "name": "&f&lUU Ban List",
             "description": [
                 "",
@@ -21509,13 +21509,13 @@
                 ],
                 "material": "poke ball"
             },
-        "28": {
+        "27": {
             "name": "&f&lUU+ Ban List",
             "description": [
                 "",
                 "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
                 "",
-                "The following moves are bammed: Sheer Cold, Guillotine, Horn Drill, Fissure",
+                "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure",
                 "",
                 "The following Pokemon are banned:",
                 "",
@@ -21528,6 +21528,57 @@
                 "Arcanine, Alakazam, Blaziken, Gardevoir, Rhydon, Snorlax, Steelix, Ampharos, Feraligatr, Lucario, Milotic, Absol, Audino, Dodrio, Heracross, Sunflora, Beheeyem, Ursaring"
             ],
             "material": "poke ball",
+            "enchantments": {
+                "Sharpness": 5
+            }
+        },
+        "11": {
+            "name": "&f&lOU Ban List",
+            "description": [
+                "",
+                "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
+                "",
+                "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure, Swagger",
+                ""
+            ],
+            "material": "great ball"
+        },
+        "20": {
+            "name": "&f&lOU Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "Gen 5 Pokemon(Until Gen 5 Release)",
+                "All Anniversary Pokemon",
+                "All Shadow Pokemon",
+                "All WoC Pokemon",
+                "",
+                "Arceus, Blaziken, Darkrai, Deoxys, Dialga, Giratina, Groudon, Ho-Oh, Kyogre, Latias, Latios, Lugia, Mewtwo, Palkia, Rayquaza, Shaymin-Sky, Wobbuffet",
+                ""
+                ],
+                "material": "great ball"
+            },
+        "29": {
+            "name": "&f&lOU+ Ban List",
+            "description": [
+                "",
+                "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
+                "",
+                "The following moves are banned: Sheer Cold, Guillotine, Horn Drill, Fissure, Swagger",
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "Gen 5 Pokemon(Until Gen 5 Release)",
+                "All Shadow Pokemon",
+                "All WoC Pokemon",
+                "All standard Pokemon banned from OU tier",
+                "",
+                "Allowed Anniversary Pokemon:",
+                "All Anniversary Pokemon allowed in UU+",
+                "Aggron, Charizard, Dragonite, Flygon, Scizor, Typhlosion, Bastiodon, Breloom, Empoleon, Exeggutor, Houndoom, Luxray, Mamoswine, Rampardos, Roserade, Sceptile, Togekiss, Toxicroak, Venusaur, Vespiquen, Weedle, Druddigon, Gliscor, Gothitelle, Hippowdon, Kingdra, Lapras, Scolipede, Tentacruel, Aerodactyl, Crobat, Froslass, Gallade, Hydreigon, Musharna, Serperior, Slowbro, Slowking, Torterra, Alomomola, Bouffalant, Crustle, Donphan, Gyarados, Ludicolo, Porygon2, Tangrowth, Torkoal"
+            ],
+            "material": "great ball",
             "enchantments": {
                 "Sharpness": 5
             }
@@ -21554,6 +21605,12 @@
         },
         false
     ],
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
     "Skip": "Ban List Menu",
     "Skip": "Ban List Menu",
     "Skip": "Main Menu",
