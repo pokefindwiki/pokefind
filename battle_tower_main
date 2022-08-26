@@ -21581,7 +21581,8 @@
             "material": "great ball",
             "enchantments": {
                 "Sharpness": 5
-            },
+            }
+        },
         "29": {
             "name": "&f&lOU+ Ban List",
             "description": [
