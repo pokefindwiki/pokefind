@@ -21488,26 +21488,34 @@
                     "",
                     "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
                     "",
-                    "The following Pokemon are banned:",
-                    "",
-                    "Gen 5 Pokemon(Until Gen 5 Release)",
-                    "All Anniversary Pokemon",
-                    "All Shadow Pokemon",
-                    "All WoC Pokemon",
-                    "",
-                    "Alakazam, Alolan Ninetales, Arceus, Azelf, Azumarill, Blaziken, Blissey, Breloom, Celebi, Chansey, Clefable, Cloyster, Cresselia, Darkrai, Deoxys, Dialga, Dragonite, Dugtrio, Froslass, Garchomp, Gengar, Giratina, Gliscor, Groudon, Gyarados, Heatran, Hippowdon, Ho-Oh, Jirachi, Kingdra, Kyogre, Latias, Latios, Lucario, Lugia, Magnezone, Mamoswine, Manaphy, Metagross, Mew, Mewtwo, Palkia, Raikou, Rayquaza, Rotom-Wash, Salamence, Scizor, Shaymin, Skarmory, Staraptor, Starmie, Tangrowth, Tentacruel, Togekiss, Tyranitar, Weavile, Wobbuffet, Zapdos",
+                    "The following moves are bammed: Sheer Cold, Guillotine, Horn Drill, Fissure",
                     ""
                 ],
-                "material": "book",
-                "enchantments": {
-                    "Sharpness": 5
-                }
+                "material": "poke ball"
             },
         "19": {
+            "name": "&f&lUU Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "Gen 5 Pokemon(Until Gen 5 Release)",
+                "All Anniversary Pokemon",
+                "All Shadow Pokemon",
+                "All WoC Pokemon",
+                "",
+                "Alakazam, Alolan Ninetales, Arceus, Azelf, Azumarill, Blaziken, Blissey, Breloom, Celebi, Chansey, Clefable, Cloyster, Cresselia, Darkrai, Deoxys, Dialga, Dragonite, Dugtrio, Froslass, Garchomp, Gengar, Giratina, Gliscor, Groudon, Gyarados, Heatran, Hippowdon, Ho-Oh, Jirachi, Kingdra, Kyogre, Latias, Latios, Lucario, Lugia, Magnezone, Mamoswine, Manaphy, Metagross, Mew, Mewtwo, Palkia, Raikou, Rayquaza, Rotom-Wash, Salamence, Scizor, Shaymin, Skarmory, Staraptor, Starmie, Tangrowth, Tentacruel, Togekiss, Tyranitar, Weavile, Wobbuffet, Zapdos",
+                ""
+                ],
+                "material": "poke ball"
+            },
+        "28": {
             "name": "&f&lUU+ Ban List",
             "description": [
                 "",
                 "The following abilities are banned: Drizzle, Drought, Sand Stream, Snow Warning",
+                "",
+                "The following moves are bammed: Sheer Cold, Guillotine, Horn Drill, Fissure",
                 "",
                 "The following Pokemon are banned:",
                 "",
@@ -21519,7 +21527,7 @@
                 "Allowed Anniversary Pokemon:",
                 "Arcanine, Alakazam, Blaziken, Gardevoir, Rhydon, Snorlax, Steelix, Ampharos, Feraligatr, Lucario, Milotic, Absol, Audino, Dodrio, Heracross, Sunflora, Beheeyem, Ursaring"
             ],
-            "material": "book",
+            "material": "poke ball",
             "enchantments": {
                 "Sharpness": 5
             }
@@ -21722,7 +21730,7 @@
     "Skip": 2,
     "Leave": "battle_tower",
     "Leave": [],
-    
+
     "LimitParty": 3,
     "SetPokemonLevel": 50,
     "DisablePokemon": { 
