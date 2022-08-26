@@ -21482,7 +21482,7 @@
         "Battle Tower Ban Lists",
         6,
         {
-        "4": {
+        "2": {
                 "name": "&f&lUU Ban List",
                 "description": [
                     "",
@@ -21493,7 +21493,7 @@
                 ],
                 "material": "poke ball"
             },
-        "13": {
+        "11": {
             "name": "&f&lUU Ban List",
             "description": [
                 "",
@@ -21509,7 +21509,7 @@
                 ],
                 "material": "poke ball"
             },
-        "22": {
+        "20": {
             "name": "&f&lUU+ Ban List",
             "description": [
                 "",
@@ -21523,7 +21523,7 @@
                 "Sharpness": 5
             }
         },
-        "31": {
+        "29": {
             "name": "&f&lUU+ Ban List",
             "description": [
                 "",
@@ -21542,7 +21542,7 @@
                 "Sharpness": 5
             }
         },
-        "6": {
+        "4": {
             "name": "&f&lOU Ban List",
             "description": [
                 "",
@@ -21553,7 +21553,7 @@
             ],
             "material": "great ball"
         },
-        "15": {
+        "13": {
             "name": "&f&lOU Ban List",
             "description": [
                 "",
@@ -21569,7 +21569,7 @@
                 ],
                 "material": "great ball"
             },
-        "24": {
+        "22": {
             "name": "&f&lOU+ Ban List",
             "description": [
                 "",
@@ -21583,7 +21583,7 @@
                 "Sharpness": 5
             }
         },
-        "33": {
+        "31": {
             "name": "&f&lOU+ Ban List",
             "description": [
                 "",
@@ -21603,7 +21603,7 @@
                 "Sharpness": 5
             }
         },
-        "8": {
+        "6": {
             "name": "&f&lUbers Ban List",
             "description": [
                 "",
@@ -21612,7 +21612,7 @@
             ],
             "material": "ultra ball"
         },
-        "17": {
+        "15": {
             "name": "&f&lUbers Ban List",
             "description": [
                 "",
@@ -21626,7 +21626,7 @@
                 ],
                 "material": "ultra ball"
             },
-        "26": {
+        "24": {
             "name": "&f&lUbers+ Ban List",
             "description": [
                 "",
@@ -21638,7 +21638,7 @@
                 "Sharpness": 5
             }
         },
-        "35": {
+        "33": {
             "name": "&f&lUbers+ Ban List",
             "description": [
                 "",
@@ -21679,6 +21679,10 @@
         },
         false
     ],
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
     "Skip": "Ban List Menu",
     "Skip": "Ban List Menu",
     "Skip": "Ban List Menu",
