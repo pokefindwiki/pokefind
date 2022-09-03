@@ -5,9 +5,9 @@
 	    "look": true,
         "location": {
             "world": "world",
-            "x": 248.5,
-            "y": 55.0,
-            "z": 421.7,
+            "x": 361.5,
+            "y": 75.0,
+            "z": 874.7,
             "yaw": 90,
             "pitch": 0
         },
@@ -50,10 +50,10 @@
     "Leave": [],
 
 
-    "Schedule": [ "15:00", "PST" ],
+    "Schedule": [ "16:00", "PST" ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! Hint: Don't mind me Nobel, I'm just browsing.",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: Don't mind me Nobel, I'm just browsing.", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! Hint: So many books, I'll never be able to read them all...",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: So many books, I'll never be able to read them all...", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
