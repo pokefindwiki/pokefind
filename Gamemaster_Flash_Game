@@ -1,0 +1,60 @@
+{
+    "CreateEntity": {
+		"key": "gamemaster",
+        "name_background": false,
+	    "look": true,
+        "location": {
+            "world": "world",
+            "x": 248.5,
+            "y": 55.0,
+            "z": 421.7,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+		    "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MzE1NzY2MDA1NiwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZDc0ODYzMzA4OTkyMmU2ZWFhMjAzZGZlNmNkNWI0NDg0M2RmZjI0YjM3ZTY1YzlhOGVkMjM3ZGJmYzFlYzk1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+			"signature": "SRTvXafxlNjWu3H6NJRhAw44uKM6pZ+igBEw88lP10Y56wD0h03ofF40tQDP0jlYskM1X4lHdwPVSPgD2EahWgXz5DKo4SBrd1r3k7nP4bDS4n+/7nI9BCBaj5jZ5Hyz1yeE6KUcgMTyRmxIxG90aQOR1ktBBubn0GlsllUf+hf6mCIb62Arn5wBGRA0vjhFuZngrN3pgTvi4tZ0ePzl7A5J9D6xCXdPi7A6V7fTdi/DZQZHhwTiXFE7ibBX3LxIeUzsk8wO8itrPYPTTLKsQ3LJfYI0qgytG+X1jiEFw9pFRvZ8qcMaYcoZTtXxUQKwA4nbFR1rtmMSGaGBikyB37RYOJ/mWTxX+b+6+j5sMx9LFPWZY0466ZsSx3yiCVFd9vYY/QQtYThRrsXsSyLM042ICp12EN14toz6jUhaTjoOT38jHCH8KTG69E2KonhsPDKD3Wu3Bwftfa1D/5Z8qXjp68rbcQmEcPfxe+Y3dPtZitwsVOKFsWtiwEH7198xgdGZ9pTHikW7OHP4wKJzSfmADEkAwimE7EDqfVmU/JQklKvlaKU/NdtZDnXIekuerFBj4LmXxED/jlISkzY2bNWjBifHEKE2UoMGSMrBcJ1dAwXtg3crw8REdvWZOG5XkhA0Pqo+4I3tltQrjSk5cNIFG6vd91JYZnGKvaKrK1A="
+        }
+    },
+    "Server": [],
+    "Hide": "gamemaster",
+    "ClickEntity": "gamemaster",
+    "GlobalNotCompleted": [ "flash_game", 0, 10, 0, "&b&lGamemaster&f: &fSomeone already found me, better luck next time!" ],
+    "GlobalComplete": [],
+    "If": [],
+    "Equals": [ "server", "gamemaster_found", "=", "found", false ],
+    "SendMessage": "&b&lGamemaster&f: &fSomeone already found me, better luck next time!",
+    "Skip": 1,
+    "Leave": [],
+    "Set": [ "server", "gamemaster_found", "found", true ],
+    "SetPersistent": [ "server", "last_round", "[PLAYER_PLAIN]", true ],
+    "BroadcastMessage": "&b&lGamemaster&f: &cGame Over! &f[last_round] has found me!",
+    "SendDiscordMessage": ["pworld_rare_spawns", "The Flash Game has ended, someone found the Gamemaster!" ],
+    "Dialog": [
+        {
+            "&d&lGamemaster": "You found me! Congratulations! Please accept this reward."
+        }
+    ],
+    "Wait": 1.0,
+    "RandomOption": 8,
+    "GiveEgg": "best_of_easter",
+"GiveEgg": "best_of_halloween",
+"GiveEgg": "best_of_christmas",
+"GiveEgg": "best_of_thanksgiving_2020",
+"GiveEgg": "anniversary_dream",
+"GiveEgg": "anniversary_dream_2",
+"GiveEgg": "summer_2022",
+"GiveEgg": "shiny_legendary",
+    "Server": [],
+    "Hide": "gamemaster",
+    "Leave": [],
+
+
+    "Schedule": [ "15:00", "PST" ],
+    "Show": "gamemaster",
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! Hint: Don't mind me Nobel, I'm just browsing.",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: Don't mind me Nobel, I'm just browsing.", "flash_events"],
+    "Set": [ "server", "gamemaster_found", "not_found", true ],
+    "Leave": [],
+    "Key": "flash_game"
+}
