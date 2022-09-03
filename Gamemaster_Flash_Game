@@ -42,7 +42,7 @@
     "Leave": [],
 
 
-    "Schedule": [ "16:00", "PST" ],
+    "Schedule": [ "16:30", "PST" ],
     "Show": "gamemaster",
     "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &cFinal round!&f Hint: Thanks for the drink, Katie.",
     "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! FINAL ROUND! Hint: Thanks for the drink, Katie.", "flash_events"],
