@@ -5,9 +5,9 @@
 	    "look": true,
         "location": {
             "world": "world",
-            "x": 361.5,
-            "y": 75.0,
-            "z": 874.7,
+            "x": -270.5,
+            "y": 29.0,
+            "z": 312.5,
             "yaw": 90,
             "pitch": 0
         },
@@ -36,14 +36,6 @@
         }
     ],
     "Wait": 1.0,
-    "RandomOption": 8,
-    "GiveEgg": "best_of_easter",
-"GiveEgg": "best_of_halloween",
-"GiveEgg": "best_of_christmas",
-"GiveEgg": "best_of_thanksgiving_2020",
-"GiveEgg": "anniversary_dream",
-"GiveEgg": "anniversary_dream_2",
-"GiveEgg": "summer_2022",
 "GiveEgg": "shiny_legendary",
     "Server": [],
     "Hide": "gamemaster",
@@ -52,8 +44,8 @@
 
     "Schedule": [ "16:00", "PST" ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! Hint: So many books, I'll never be able to read them all...",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: So many books, I'll never be able to read them all...", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &cFinal round!&f Hint: Thanks for the drink, Katie.",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! FINAL ROUND! Hint: Thanks for the drink, Katie.", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
