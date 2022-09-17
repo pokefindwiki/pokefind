@@ -59,11 +59,11 @@
     "Leave": [],
 
 
-    "Schedule": [ "10:30", "PST" ],
-    "TeleportEntity": [ "gamemaster", -943.5, 95.0, 210.5, 0, -25 ],
+    "Schedule": [ "12:30", "PST" ],
+    "TeleportEntity": [ "gamemaster", -539.5, 118.0, -450.5, 90, -25 ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Those giant flowers make the forest smell good.",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 1 to win a prize! Hint: Those giant flowers make the forest smell good.", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: The noise from the bowling alley sure makes it hard to concentrate on the movie...",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 1 to win a prize! Hint: The noise from the bowling alley sure makes it hard to concentrate on the movie...", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
