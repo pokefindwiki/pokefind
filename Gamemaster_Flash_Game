@@ -60,8 +60,8 @@
 
 
     "Schedule": [ "10:30", "PST" ],
-    "TeleportEntity": [ "gamemaster", 
-    "Show": "gamemaster", -943.5, 95.0, 210.5, 0, -25 ],
+    "TeleportEntity": [ "gamemaster", -943.5, 95.0, 210.5, 0, -25 ],
+    "Show": "gamemaster",
     "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Those giant flowers make the forest smell good.",
     "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 1 to win a prize! Hint: Those giant flowers make the forest smell good.", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
