@@ -1,0 +1,127 @@
+{
+    "Key": "gen1_hw22_spawn_generate",
+    "InRegion": [ -750, 252, 900, -300, 0, 350 ],
+    "InDateRange": [
+        "2-10-2022 00:00",
+        "12-11-2022 23:59"
+    ],
+
+    "Comment": "House 1",
+    "SetBlock": [ -479, 83, 742, "Bell" ],
+    "SetBlock": [ -479, 82, 739, { "material": "Jack_o_lantern", "face": "West" } ],
+    "SetBlock": [ -477, 85, 741, "Cobweb" ],
+
+    "Comment": "House 2",
+    "SetBlock": [ -556, 80, 727, "Bell" ],
+    "SetBlock": [ -555, 79, 731, { "material": "Jack_o_lantern", "face": "South" } ],
+    "SetBlock": [ -559, 80, 727, { "material": "Jack_o_lantern", "face": "South" } ],
+
+
+    "Comment": "House 3",
+    "SetBlock": [ -567, 89, 713, "Bell" ],
+    "SetBlock": [ -568, 89, 713, { "material": "Jack_o_lantern", "face": "North" } ],
+    "SetBlock": [ -563, 89, 713, { "material": "Jack_o_lantern", "face": "North" } ],
+
+
+    "Comment": "House 4",
+    "SetBlock": [ -427, 83, 644, "Bell" ],
+    "SetBlock": [ -431, 81, 641, { "material": "Jack_o_lantern", "face": "West" } ],
+    "SetBlock": [ -427, 86, 643, "Cobweb" ],
+
+
+    "Comment": "House 5",
+    "SetBlock": [ -411, 83, 604, "Bell" ],
+    "SetBlock": [ -415, 81, 601, { "material": "Jack_o_lantern", "face": "West" } ],
+    "SetBlock": [ -415, 82, 605, { "material": "Jack_o_lantern", "face": "West" } ],
+
+
+
+    "Comment": "House 6",
+    "SetBlock": [ -435, 83, 575, "Bell" ],
+    "SetBlock": [ -431, 81, 574, { "material": "Jack_o_lantern", "face": "East" } ],
+    "SetBlock": [ -435, 82, 578, { "material": "Jack_o_lantern", "face": "East" } ],
+
+
+    "Comment": "House 7",
+    "SetBlock": [ -447, 83, 543, "Bell" ],
+    "SetBlock": [ -443, 82, 546, { "material": "Jack_o_lantern", "face": "East" } ],
+    "SetBlock": [ -443, 82, 542, { "material": "Jack_o_lantern", "face": "East" } ],
+
+
+    "Comment": "House 8",
+    "SetBlock": [ -505, 84, 532, "Bell" ],
+    "SetBlock": [ -501, 82, 535, { "material": "Jack_o_lantern", "face": "West" } ],
+    "SetBlock": [ -505, 83, 532, { "material": "Jack_o_lantern", "face": "West" } ],
+
+
+    "Comment": "House 9",
+    "SetBlock": [ -470, 84, 783, "Bell" ],
+    "SetBlock": [ -468, 86, 782, "cobweb" ],
+    "SetBlock": [ -473, 88, 783, "Cobweb" ],
+
+
+    "Comment": "House 10",
+    "SetBlock": [ -409, 86, 470, "Bell" ],
+
+    "Comment": "Holding",
+    "Hold": [],
+
+    "Comment": "House 1 Click",
+    "GlobalClickBlock": [ -479, 83, 742 ],
+    "Start": "g1_hw22_spawn_one",
+    "Skip": "Holding",
+
+    "Comment": "House 2 Click",
+    "GlobalClickBlock": [ -556, 80, 727 ],
+    "Start": "g1_hw22_spawn_two",
+    "Skip": "Holding",
+
+    "Comment": "House 3 Click",
+    "GlobalClickBlock": [ -567, 89, 713 ],
+    "Start": "g1_hw22_spawn_three",
+    "Skip": "Holding",
+
+    "Comment": "House 4 Click",
+    "GlobalClickBlock": [ -427, 83, 644 ],
+    "Start": "g1_hw22_spawn_four",
+    "Skip": "Holding",
+
+
+    "Comment": "House 5 Click",
+    "GlobalClickBlock": [ -411, 83, 604 ],
+    "Start": "g1_hw22_spawn_five",
+    "Skip": "Holding",
+
+
+    "Comment": "House 6 Click",
+    "GlobalClickBlock": [ -435, 83, 575 ],
+    "Start": "g1_hw22_spawn_six",
+    "Skip": "Holding",
+
+
+    "Comment": "House 7 Click",
+    "GlobalClickBlock": [ -447, 83, 543 ],
+    "Start": "g1_hw22_spawn_seven",
+    "Skip": "Holding",
+
+
+    "Comment": "House 8 Click",
+    "GlobalClickBlock": [ -505, 84, 532 ],
+    "Start": "g1_hw22_spawn_eight",
+    "Skip": "Holding",
+
+
+    "Comment": "House 9 Click",
+    "GlobalClickBlock": [ -470, 84, 783 ],
+    "Start": "g1_hw22_spawn_nine",
+    "Skip": "Holding",
+
+
+    "Comment": "House 10 Click",
+    "Comment": "Cultist",
+    "GlobalClickBlock": [ -470, 84, 783 ],
+    "Start": "g1_hw22_spawn_ten",
+    "Skip": "Holding"
+    
+    
+}
