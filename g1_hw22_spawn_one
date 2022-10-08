@@ -1,5 +1,5 @@
 {
-    "Key": "g1_hw22_spawn_one",
+    "Key": "gen1_hw22_spawn_one",
     "AllowRejoining": true,
     "CreateEntity": {
         "key": "Dracula1",
