@@ -1,0 +1,128 @@
+{
+    "Key": "gen1_hw22_spawn_two",
+    "AllowRejoining": true,
+    "CreateEntity": {
+        "key": "Zombie1",
+        "name": [
+            "&c&lZombie"
+        ],
+        "location": {
+            "world": "world",
+            "x": -556.5,
+            "y": 80.0,
+            "z": 725.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNzY0NTEzODMwMSwKICAicHJvZmlsZUlkIiA6ICIxZDUyMzNkMzg4NjI0YmFmYjAwZTMxNTBhN2FhM2E4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMDAwMDAwMDAwMDAwMDBKIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VkYTgzMDJkODMwZmY5YTMxNDhjZTZlN2I1MmQ1YzQ1YTMzYzg5MmUyZTQ5NTFjZTFkOTBhZTQ5YmQ4YzU3YzgiCiAgICB9CiAgfQp9",
+            "signature": "TJiKcRAEl4fR5L4XKoZ6eDDMkyv1CC2wtF8CbZqDMa3BdU4obk0fDHqs4Aw/ANx9nAq1xDZGOXtkFU/0hgQG+FymoJQyTHTnxrlGQlmBQoXzERUc1pDNpeD8fxsVxPAdIs1GxKYbrnGQq6nKMfY1PtGA3X0VcOusSe4Cl3KWnBpV3bJj1xlI+Rx92LNrpimxE8v20c1auWDl/pjOjYU6ArnhNHJBcwtQValFqb5NfBgBzLIAUCEsu89WNMHbKv54Ucqqihfuc/IA2aR/Ky7PuCSCGZz2uGqHvTwT/NMaE9jpqx/yGYfI8Q9ZegJ7V67ippVkYudWtFadIKknS0ZXw864Qy/Y1+Yr91VPsPN1ab7zxDWsPe6tsDDZ8V14EteQ8BqZenen25ggm8XOLOCD/UuVKqsdg8K7DRJPL0/ycgUAYmsZopiArOd53jEryqAyLh/0+i0weF/tEgXkW2zRMbfmEPyQFi6WQE8StpuH2NWtArsHnTR5Cgcu1uXlUTTPCqeuohrUbZq/H2511pjdv1WZVaePI0eyA0rZm5aJod7hY15OdIuFi9oKKeBiH7cAMQIqcyQz9MX5XCO3a0NvbGUsO8IZiQZmvyKODMbFAS8CsygGIt5onfAc6dPnQeERBXsmbpsOWWrDy90lyI5zCBlETPv0BSaBwhYSKJFSDQQ="
+        }
+    },
+
+    "Show": {
+        "Zombie1": false
+    },
+    "If": [],
+    "NotCompleted": [ 20, 0, 0 ],
+    "Skip": 2,
+    "SendMessage": "You an only trick-or-treat here once every 20h... Try again in [SCRIPT_REATTEMPT_TIME1]",
+    "Leave": [],
+    "Show": {
+        "Zombie1": true
+    },
+    "Dialog": [
+        {
+            "[PLAYER]": "Trick-or-Treat!",
+            "&c&lZombie": "My costume is a no-brainer, but what are you supposed to be?",
+            "&c&lZombie": "Zom-bie my guest to some candy!"
+        }
+    ],
+    "RandomOption": 2,
+    "Skip": "Trick",
+    "Skip": "Treat",
+
+
+    "Comment": "Trick",
+    "Show": {
+        "Zombie1": true
+    },
+    "Skip": 2,
+    "Comment": "Check Party",
+    "HighlightClickEntity": "Zombie1",
+    "If": [],
+    "HasPokemon": { 
+        "skin": [ "Anniversary", "Shadow" ]
+    },
+    "SendMessage": "Dark magic prevents you from using Anniversaries, Legends, Shadows and WoC Pokemon...",
+    "Skip": 2,
+    "Skip": "Check Party",
+    "Leave": [],
+    "If": [],
+    "HasPokemon": { 
+        "species": [ "Arceus", "Azelf", "Celebi", "Cresselia", "Darkrai", "Deoxys", "Dialga",  "Giratina", "Groudon", "Heatran", "Ho-Oh", "Jirachi", "Kyogre", "Latias", "Latios", "Lugia", "Manaphy", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Shaymin", "Zapdos", "fafnir", "fafnir_", "fafnir__", "frostfang", "frostfang_", "frostfang__", "goard", "shade", "shade_", "shade__", "soko", "vixen", "vixen_", "wildwing", "wildwing_", "wildwing__" ]
+    },
+    "SendMessage": "Dark magic prevents you from using Anniversaries, Legends, Shadows and WoC Pokemon...",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+    "NoDuplicateParty": [],
+    "BattleNpc": [
+        "Zombie1",
+        {
+            "&c&lZombie": "But of corpse we must have a battle!"
+        },
+        {
+            "&c&lZombie": "Looks like I dug my own grave..."
+        },
+        {
+            "&c&lZombie": "Oops, dead I beat you that hard?"
+        },
+        6,
+        "halloween_pokemon_library",
+        {
+            "exp_multiplier": 2.0,
+            "automatically_start": true,
+            "conditional": true
+        }
+    ],
+    "Skip": "Battle Won",
+    "Skip": "Battle Lost",
+
+
+    "Comment": "Battle Won",
+    "Complete": [],
+    "AddPersistent": [ "hw22candy", "[server:hw22bwa]", true ],
+    "SendMessage": "&7Received [server:hw22bwa] Halloween Candy!",
+    "Show": {
+        "Zombie1": false
+    },
+    "Leave": [],
+
+    "Comment": "Battle Lost",
+    "Complete": [],
+    "AddPersistent": [ "hw22candy", "[server:hw22bla]", true ],
+    "SendMessage": "&7Received [server:hw22bla] Halloween Candy!",
+    "Show": {
+        "Zombie1": false
+    },
+    "Leave": [],
+
+
+    "Comment": "Treat",
+    "Complete": [],
+    "Dialog": [
+        {
+            "&c&lZombie": "Here, why don't you have some candy...",
+            "[PLAYER]": "Thank you... I think?",
+            "&c&lZombie": "Flesh out of the candy basket!"
+        }
+    ],
+    "AddPersistent": [ "hw22candy", "[server:hw22tta]", true ],
+    "SendMessage": "&7Received [server:hw22tta] Halloween Candy!",
+    "Show": {
+        "Zombie1": false
+    },
+    "Leave": []
+            
+}
