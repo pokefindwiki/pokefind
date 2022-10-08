@@ -75,7 +75,7 @@
     "Skip": "Check Party",
     "Leave": [],
     "If": [],
-    "HasPokemon": { "species": "Legendaries" },
+    "HasPokemon": { "species": "Legendary" },
     "SendMessage": "Dark magic prevents you from using Anniversaries, Legends, Shadows and WoC Pokemon...",
     "Skip": 2,
     "Skip": "Check Party",
