@@ -1,0 +1,114 @@
+{
+    "Key": "g1_hw22_spawn_one",
+    "AllowRejoining": true,
+    "CreateEntity": {
+        "key": "Dracula1",
+        "name": [
+            "&c&lDracula"
+        ],
+        "location": {
+            "world": "world",
+            "x": -477.5,
+            "y": 82.0,
+            "z": 741.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNDA2MjA2NzA4NiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kODJjNDM2NWRjZDM2ZGNjZmY5MjVkYmEwNDA2MTVmZTM0M2JlNWZiMzg3OWRiZmNkMWIxOTA4NzYxZDU0YWMwIgogICAgfQogIH0KfQ==",
+            "signature": "etpOoQDxHFW6bp1YhAWG17MU4xtXPS/OtIG0OnxAEi5g7H7OGU3/RR6M+jQG5t3Wuf0jSWmuGom+1klBctw3rvUM4+UbTs9pTdDQnP8EcDTSQB89LP1JZ90r2WE5uiRcbZ/tZSkeYkhSfDNu+zWx41nM05VgvaYI6I/RvnA+oPouc4AH923NSIEN70feyEl5mVS+WRAvn414SDN2e/YeXb3hfGvjpd7U04Y5ehFjqY4TawGDaILVWm6iF7Tm6eAWItYx5qlIOaMVPJRrlTlxBYN0xXge5gdAP/ZiUDiveuMf6EpRkMXHH1BvZCiicXH0FMbesRf5pPEID1kqmOnMokGJQ0DQ5vi7e55l19sdrhODvYGMZlZdEqVe92GBWqD27xogbx9KT5eD3LMoShYkCd17CfAIGNqoX0bhSL4z8SzP5Yf1m2pVUAb+Fr8od+M6jg6LxQzDbWvxxfTqVAb4YMXEmoanXvGp0g0y0CM66kKHWz3jJtr/191lsBm81IH834G1DA1ozXs8MlUvUA+UIFBFsp16Tn//WHYsiXCGxCRfRA+RuQla+8AEQEokQTiQiX1MgomJb68Ap1eT/sbnBppICXsR5fsdYirxIzcGZugEnaY3UYR3qKiiBd6sjY52mbAY/1ySjQk81pKOM5IWTTFNl6s9x0eSmxBvfFZpsuQ="
+        }
+    },
+    "CreateEntity": {
+        "key": "Dracula2",
+        "name": [
+            "&c&lDracula"
+        ],
+        "location": {
+            "world": "world",
+            "x": -479.5,
+            "y": 82.0,
+            "z": 736.5,
+            "yaw": 0,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNDA2MjA2NzA4NiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kODJjNDM2NWRjZDM2ZGNjZmY5MjVkYmEwNDA2MTVmZTM0M2JlNWZiMzg3OWRiZmNkMWIxOTA4NzYxZDU0YWMwIgogICAgfQogIH0KfQ==",
+            "signature": "etpOoQDxHFW6bp1YhAWG17MU4xtXPS/OtIG0OnxAEi5g7H7OGU3/RR6M+jQG5t3Wuf0jSWmuGom+1klBctw3rvUM4+UbTs9pTdDQnP8EcDTSQB89LP1JZ90r2WE5uiRcbZ/tZSkeYkhSfDNu+zWx41nM05VgvaYI6I/RvnA+oPouc4AH923NSIEN70feyEl5mVS+WRAvn414SDN2e/YeXb3hfGvjpd7U04Y5ehFjqY4TawGDaILVWm6iF7Tm6eAWItYx5qlIOaMVPJRrlTlxBYN0xXge5gdAP/ZiUDiveuMf6EpRkMXHH1BvZCiicXH0FMbesRf5pPEID1kqmOnMokGJQ0DQ5vi7e55l19sdrhODvYGMZlZdEqVe92GBWqD27xogbx9KT5eD3LMoShYkCd17CfAIGNqoX0bhSL4z8SzP5Yf1m2pVUAb+Fr8od+M6jg6LxQzDbWvxxfTqVAb4YMXEmoanXvGp0g0y0CM66kKHWz3jJtr/191lsBm81IH834G1DA1ozXs8MlUvUA+UIFBFsp16Tn//WHYsiXCGxCRfRA+RuQla+8AEQEokQTiQiX1MgomJb68Ap1eT/sbnBppICXsR5fsdYirxIzcGZugEnaY3UYR3qKiiBd6sjY52mbAY/1ySjQk81pKOM5IWTTFNl6s9x0eSmxBvfFZpsuQ="
+        }
+    },
+    "Show": {
+        "Dracula1": false,
+        "Dracula2": false
+    },
+    "NotCompleted": [ 20, "You can only trick-or-treat here once every 20h." ],
+    "Dialog": [
+        {
+            "[PLAYER]": "Trick-or-Treat!",
+            "&c&lDracula": "How fang-tastic! My first trick-or-treater!",
+            "&c&lDracula": "I've got an offer you count refuse!"
+        }
+    ],
+    "Show": "Dracula1",
+    "RandomOption": 2,
+    "Skip": "Trick",
+    "Skip": "Treat",
+
+
+    "Comment": "Trick",
+    "MoveEntity": [ "Dracula1", -479.5, 82.0, 741.5],
+    "MoveEntity": [ "Dracula1", -479.5, 82.0, 736.5],
+    "Show": {
+        "Dracula1": false,
+        "Dracula2": true
+    },
+    "BattleNpc": [
+        "Dracula2",
+        {
+            "&c&lDracula": "Lets have a great bat-tle!"
+        },
+        {
+            "&c&lDracula": "From bat to worse..."
+        },
+        {
+            "&c&lDracula": "You're looking rather grave after that."
+        },
+        3,
+        "halloween_pokemon_library",
+        {
+            "exp_multiplier": 2.0,
+            "automatically_start": true,
+            "conditional": true
+        }
+    ],
+    "Skip": "Battle Won",
+    "Skip": "Battle Lost",
+
+
+    "Comment": "Battle Won",
+    "Complete": [],
+    "AddPersistent": [ "hw22candy", "[server:hw22bwa]", true ],
+    "SendMessage": "&7Received [server:hw22bwa] Halloween Candy!",
+    "Leave": [],
+
+    "Comment": "Battle Lost",
+    "Complete": [],
+    "AddPersistent": [ "hw22candy", "[server:hw22bla]", true ],
+    "SendMessage": "&7Received [server:hw22bla] Halloween Candy!",
+    "Leave": [],
+
+
+    "Comment": "Treat",
+    "Complete": [],
+    "Dialog": [
+        {
+            "&c&lDracula": "Here, why don't you have some candy...",
+            "[PLAYER]": "Thank you... I think?",
+            "&c&lDracula": "Stake it or leave it!"
+        }
+    ],
+    "AddPersistent": [ "hw22candy", "[server:hw22tta]", true ],
+    "SendMessage": "&7Received [server:hw22tta] Halloween Candy!",
+    "Leave": []
+            
+}
