@@ -42,6 +42,10 @@
         "Dracula2": false
     },
     "NotCompleted": [ 20, 0, 0, "You can only trick-or-treat here once every 20h." ],
+    "Show": {
+        "Dracula1": true,
+        "Dracula2": false
+    },
     "Dialog": [
         {
             "[PLAYER]": "Trick-or-Treat!",
@@ -49,7 +53,6 @@
             "&c&lDracula": "I've got an offer you count refuse!"
         }
     ],
-    "Show": "Dracula1",
     "RandomOption": 2,
     "Skip": "Trick",
     "Skip": "Treat",
