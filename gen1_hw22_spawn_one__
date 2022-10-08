@@ -75,10 +75,12 @@
     "Skip": "Check Party",
     "Leave": [],
     "If": [],
-    "HasPokemon": { "species": "Legendary" },
+    "HasPokemon": { 
+        "species": [ "Arceus", "Azelf", "Celebi", "Cresselia", "Darkrai", "Deoxys", "Dialga",  "Giratina", "Groudon", "Heatran", "Ho-Oh", "Jirachi", "Kyogre", "Latias", "Latios", "Lugia", "Manaphy", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Shaymin", "Zapdos", "fafnir", "fafnir_", "fafnir__", "frostfang", "frostfang_", "frostfang__", "goard", "shade", "shade_", "shade__", "soko", "vixen", "vixen_", "wildwing", "wildwing_", "wildwing__" ]
+    },
     "SendMessage": "Dark magic prevents you from using Anniversaries, Legends, Shadows and WoC Pokemon...",
     "Skip": 2,
-    "Skip": "Check Party",
+    "Leave": [],
     "Leave": [],
     "NoDuplicateParty": [],
     "BattleNpc": [
