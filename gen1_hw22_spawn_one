@@ -65,7 +65,9 @@
         "Dracula1": false,
         "Dracula2": true
     },
+    "Skip": 2,
     "Comment": "Check Party",
+    "HighlightClickEntity": "Dracula2",
     "If": [],
     "HasPokemon": { 
         "skin": [ "Anniversary", "Shadow" ]
