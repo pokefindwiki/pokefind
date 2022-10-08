@@ -65,6 +65,22 @@
         "Dracula1": false,
         "Dracula2": true
     },
+    "Comment": "Check Party",
+    "If": [],
+    "HasPokemon": { 
+        "skin": [ "Anniversary", "Shadow" ]
+    },
+    "SendMessage": "Dark magic prevents you from using Anniversaries, Legends, Shadows and WoC Pokemon...",
+    "Skip": 2,
+    "Skip": "Check Party",
+    "Leave": [],
+    "If": [],
+    "HasPokemon": { "species": "Legendaries" },
+    "SendMessage": "Dark magic prevents you from using Anniversaries, Legends, Shadows and WoC Pokemon...",
+    "Skip": 2,
+    "Skip": "Check Party",
+    "Leave": [],
+    "NoDuplicateParty": [],
     "BattleNpc": [
         "Dracula2",
         {
@@ -76,7 +92,7 @@
         {
             "&c&lDracula": "You're looking rather grave after that."
         },
-        3,
+        6,
         "halloween_pokemon_library",
         {
             "exp_multiplier": 2.0,
