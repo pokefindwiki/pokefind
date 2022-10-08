@@ -41,7 +41,7 @@
         "Dracula1": false,
         "Dracula2": false
     },
-    "NotCompleted": [ 20, "You can only trick-or-treat here once every 20h." ],
+    "NotCompleted": [ 20, 0, 0, "You can only trick-or-treat here once every 20h." ],
     "Dialog": [
         {
             "[PLAYER]": "Trick-or-Treat!",
