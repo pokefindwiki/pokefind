@@ -1,7 +1,7 @@
 {
-    "Key": "halloween_library",
+    "Key": "halloween_library_100",
     "Store": [
-        "halloween_pokemon_library",
+        "halloween_100",
         [
             {
                 "species": "abomasnow",
