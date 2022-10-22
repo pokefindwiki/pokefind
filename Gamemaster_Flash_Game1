@@ -36,7 +36,7 @@
         }
     ],
     "Wait": 1.0,
-    "RandomOption": 17,
+    "RandomOption": 14,
 "GiveEgg": "halloween_2017",
 "GiveEgg": "halloween_2018",
 "GiveEgg": "halloween_2019",
@@ -50,20 +50,17 @@
 "GiveEgg": "summer",
 "GiveEgg": "summer_2021",
 "GiveEgg": "summer_2022",
-"GiveEgg": "shadow",
-"GiveEgg": "shadow_3",
-"GiveEgg": "shadow_4",
 "GiveEgg": "legendary_dog",
     "Server": [],
     "Hide": "gamemaster",
     "Leave": [],
 
 
-    "Schedule": [ "12:30", "PST" ],
-    "TeleportEntity": [ "gamemaster", -539.5, 118.0, -450.5, 90, -25 ],
+    "Schedule": [ "13:35", "PST" ],
+    "TeleportEntity": [ "gamemaster", -832.5, 39.0, 334.5, 90, -25 ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: The noise from the bowling alley sure makes it hard to concentrate on the movie...",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 1 to win a prize! Hint: The noise from the bowling alley sure makes it hard to concentrate on the movie...", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: I swear that statue just roared!",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: I swear that statue just roared!", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
