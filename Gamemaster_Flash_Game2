@@ -56,11 +56,11 @@
     "Leave": [],
 
 
-    "Schedule": [ "13:35", "PST" ],
-    "TeleportEntity": [ "gamemaster", -832.5, 39.0, 334.5, 90, -25 ],
+    "Schedule": [ "15:50", "PST" ],
+    "TeleportEntity": [ "gamemaster", -210.5, 55.0, -166.5, 90, -25 ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: I swear that statue just roared!",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: I swear that statue just roared!", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: That sure is a lot of ore they hauled out, that mine must be loaded.",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: That sure is a lot of ore they hauled out, that mine must be loaded.", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
