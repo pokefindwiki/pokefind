@@ -1,0 +1,321 @@
+{
+    "CreateEntity": {
+        "key": "cyrus",
+        "name": [
+            "&b&lCyrus",
+            "&6Iconic Trainer"
+        ],
+        "skin": {
+		    "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjM1NDEwMTYxOCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmNWZjYTZlZmFjNTEwODc2NDZhMjIyNGU4NGYxYzEwNjI1ZTkyNzg3YzNkZGMxOWQwM2M1MWM1MTIzYTgzOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+			"signature": "FC2a/sxdbBEa8cUmk1XsO0bRB9Yp8MSyMSACN+J2T7eSo7/vlGegNddBZzZAVi4FgeP6K58+oGcSTV6vElpjuGSMAyOI8fNKaa8M6XEeMRzp3joi+uYc8YSj+J6E5mV3//bfU8BQAAvvSMyrolPOMVrFQHEqbFXcH2i+UNcN5Gjf5brpAj3EzrrHxp/1NbfZH7URCkP+V1lsawAleMU8Nq8U4eCoaVuBBW8Dw6CJUtuktV4D7wUNh9epSVaV08CLhj3p6zDRGa2j+qC/hKDlsIyy4W+kaMmxKxvQtrS2BoIdr6xV/mjKl4Y42Vf+k0JtL17z58xNupY7ZpWjADWxIrA9TZP7WpxQRHUJbOakEcH//0IM94VHL+N3IA7lXemohy/BxeUVoBUzTtQxCTJJjkP9B6bssvAXK//NMZMSwafUneZ/YV+A3bgtgL8zAOhjsnDi9qLzTsEreqMLskxgibVelBRwcnpJzzgK78iKB7I9OxsWhJ/Mt47+eGoZ89Id/uGfLFXhSRrV3DceGElR3J83glki2k3ziUp+uYIGPz1mnzyga7zZoM27yQHhALrfhryV38QfiGsJmeiLPxXPXs4HrpN239EN/t9DOswdQhuQKiS9rmIYUhxhB3OHBm5Gl3j5HyquwGdxl/811LJS4ztSW6MXXrBlyfDbU5KVY24="
+        },
+        "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "Server": [
+    ],
+    "SetInvisible": "cyrus",
+    "Key": "iconic_cyrus",
+    "ClickEntity": "cyrus",
+    "NotCompleted": [
+        0,
+        25,
+        0,
+        "&b&lCyrus> &fYou have already battled me!"
+    ],
+    "DisablePokemon": { "species": "Legendaries" },
+    "DisablePokemon": { 
+        "skin": [ "Anniversary", "Shadow" ]
+    },
+	"Complete": [],
+    "BattleNpc": [
+        "cyrus",
+        {
+            "&b&lCyrus": "Lets see how strong your spirit really is!"
+        },
+        {
+            "&b&lCyrus": "Some day I will create my perfect world..."
+        },
+        {
+            "&b&lCyrus": "You will not be in my new world."
+        },
+        6,
+        [
+            {
+                "species": "arceus",
+                "level": 125,
+                "moves": [
+                    "shadow blast",
+                    "extreme speed",
+                    "swords dance",
+                    "recover"
+                ],
+                "nature": "adamant",
+                "skin": "shadow",
+                "ability": "multitype",
+                "item": "leftovers",
+                "ivs": "max",
+                "evs": {
+                    "attack": 252,
+					"defense": 6,
+					"speed": 252
+                }
+            },
+            {
+                "species": "spiritomb",
+                "level": 110,
+                "moves": [
+                    "shadow storm",
+                    "will-o-wisp",
+                    "rest",
+                    "calm mind"
+                ],
+                "nature": "bold",
+                "skin": "shadow",
+                "ability": "pressure",
+                "item": "leftovers",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"defense": 252,
+					"hp": 252
+                }
+            },
+            {
+                "species": "spiritomb",
+                "level": 110,
+                "moves": [
+                    "shadow storm",
+                    "will-o-wisp",
+                    "rest",
+                    "calm mind"
+                ],
+                "nature": "bold",
+                "skin": "shadow",
+                "ability": "pressure",
+                "item": "leftovers",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"defense": 252,
+					"hp": 252
+                }
+            },
+            {
+                "species": "staraptor",
+                "level": 105,
+                "moves": [
+                    "shadow blast",
+                    "brave bird",
+                    "double edge",
+                    "close combat"
+                ],
+                "nature": "jolly",
+                "skin": "shadow",
+                "ability": "reckless",
+                "item": "choice band",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"attack": 252,
+					"speed": 252
+                }
+            },
+            {
+                "species": "gastrodon",
+                "level": 115,
+                "moves": [
+                    "shadow chill",
+                    "recover",
+                    "toxic",
+                    "earth power"
+                ],
+                "nature": "bold",
+                "skin": "shadow",
+                "ability": "storm drain",
+                "item": "leftovers",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"defense": 252,
+					"hp": 252
+                }
+            },
+            {
+                "species": "garchomp",
+                "level": 120,
+                "moves": [
+                    "shadow blast",
+                    "outrage",
+                    "earthquake",
+                    "swords dance"
+                ],
+                "nature": "jolly",
+                "skin": "shadow",
+                "ability": "rough skin",
+                "item": "life orb",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"speed": 252,
+					"hp": 252
+                }
+            },
+            {
+                "species": "porygon-z",
+                "level": 115,
+                "moves": [
+                    "shadow chill",
+                    "tri attack",
+                    "discharge",
+                    "ice beam"
+                ],
+                "nature": "timid",
+                "skin": "shadow",
+                "ability": "analytic",
+                "item": "choice specs",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"speed": 252,
+					"special_attack": 252
+                }
+            },
+            {
+                "species": "weavile",
+                "level": 120,
+                "moves": [
+                    "shadow blitz",
+                    "ice shard",
+                    "icicle crash",
+                    "knock off"
+                ],
+                "nature": "jolly",
+                "skin": "shadow",
+                "ability": "pressure",
+                "item": "expert belt",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"attack": 252,
+					"speed": 252
+                }
+            },
+            {
+                "species": "togekiss",
+                "level": 115,
+                "moves": [
+                    "shadow chill",
+                    "shadow bolt",
+                    "aura sphere",
+                    "nasty plot"
+                ],
+                "nature": "timid",
+                "skin": "shadow",
+                "ability": "serene grace",
+                "item": "leftovers",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"speed": 252,
+					"hp": 252
+                }
+            },
+            {
+                "species": "tangrowth",
+                "level": 105,
+                "moves": [
+                    "shadow wave",
+                    "giga drain",
+                    "knock off",
+                    "earthquake"
+                ],
+                "nature": "sassy",
+                "skin": "shadow",
+                "ability": "regenerator",
+                "item": "assault vest",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 252,
+					"defense": 6,
+					"hp": 252
+                }
+            },
+            {
+                "species": "gliscor",
+                "level": 105,
+                "moves": [
+                    "shadow rush",
+                    "knock off",
+                    "stealth rock",
+                    "facade"
+                ],
+                "nature": "impish",
+                "skin": "shadow",
+                "ability": "poison heal",
+                "item": "toxic orb",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 116,
+					"defense": 140,
+					"hp": 252
+                }
+            },
+            {
+                "species": "rhyperior",
+                "level": 110,
+                "moves": [
+                    "shadow down",
+                    "earthquake",
+                    "stealth rock",
+                    "dragon tail"
+                ],
+                "nature": "adamant",
+                "skin": "shadow",
+                "ability": "lightning rod",
+                "item": "leftovers",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 252,
+					"defense": 6,
+					"hp": 252
+                }
+            },
+            {
+                "automatically_start": true,
+                "hardcore": true,
+                "exp_multiplier": 1.25
+            }
+        ]
+    ],
+    "Wait": 1.0,
+    "Start": "iconic_shadow_rewards_4",
+    "Leave": [ 
+    ],
+    "BroadcastMessage": "&b&lCyrus> &fThis place... has a lot of spirit.",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Cyrus has spawned in Shiloh", "iconic_trainer"],
+	"SetPersistent": [ "server", "g4iconic", "Cyrus", true ],
+    "RandomOption": 2,
+    "TeleportEntity": [
+        -1642.5,
+        30.5,
+        400.5,
+        90,
+        "cyrus"
+    ],
+    "TeleportEntity": [
+        -587.5,
+        51.0,
+        686.5,
+        -180,
+        "cyrus"
+    ],
+    "SetVisible": "cyrus",
+    "Wait": 1500.0,
+    "BroadcastMessage": "&b&lCyrus> &fI will return to cleanse this place!",
+	"SetPersistent": [ "server", "g4iconic", "None", true ],
+    "SetInvisible": "cyrus"
+}
