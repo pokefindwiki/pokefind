@@ -1,0 +1,335 @@
+{
+    "CreateEntity": {
+        "key": "paul",
+        "name": [
+            "&b&lPaul",
+            "&6Iconic Trainer"
+        ],
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjA4ODg1OTgwNywKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ODY5NGYxMzA0NDlkMzMzMDU0OGI3YjBiNjM5YzU3ODBmYTIwYTJiOGY1ZGFlNjkyOGY3M2Q0YjhmOWNmNzgyIgogICAgfQogIH0KfQ==",
+            "signature": "o/CAdICJ8jj+1KLFuuafweZ9K2gJ4QrhvC1kgNyOja9QO/Yf1OmONZwLvXlIK6rNDyjBlzgujnOSYAgKbFDphHzFE0yanVqp7ObPBFSFB4rXTjEBEgMRXS8jdiVlPEujPYfHfPNTIj0o4RZYyuKFEvowk3VHO71GpXK+vGNwuo+hPrJkfHl7iT3XDpo3Nw2Ul+i4FQYTLaBf42+W42clnim1PSMq7lP6hwFf8wO6giRQ8xYAxGRWNlL/573IBWrCACSCm1Woa/uIMMuz7ehkUvtIWg4Fc2oEe1l3J7Mhfecn2Ng9j5kLM20iVjLTTALZ9JISQRkFhG26JD/mY2MpjP0Vg2J7NQXYMLIu0Xdx/kx9MSFACLywTQe6xGkp2X2IvyJB38T7RU1Zdv5jqmJCKme+PaKAmCww0pKwUSBDBPF+u2MahHlunNtXhfj90XFt3QC2LwhK/n1sMB1mMF6vddX1ZQ3haW5LiaMCo7EaWVpDIsxzU0a14V1cKjsk5JQEDAkgW/xMwpnLCC0lyl3y639jmtm0DFQartUlowThI3L0F35vOPB7cghlx0zQQGDiIEBpVkmRZuOAxshML/Akuy/uOnJgnWnZXGh2UbL5eHAxRM0sY1PEN4Mvo9TtA5H5w+7TrZxD3itQwD0iDlToJ9Dmnoa16GQiuYoOF8UDSQI="
+		},
+        "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "Server": [
+    ],
+    "SetInvisible": "paul",
+    "Key": "iconic_paul",
+    "ClickEntity": "paul",
+    "NotCompleted": [
+        0,
+        25,
+        0,
+        "&b&lPaul> &fYou have already battled me!"
+    ],
+    "DisablePokemon": { "species": "Legendaries" },
+    "DisablePokemon": { 
+        "skin": [ "Anniversary", "Shadow" ]
+    },
+	"Complete": [],
+    "BattleNpc": [
+        "paul",
+        {
+            "&b&lPaul": "Lets see how strong you are..."
+        },
+        {
+            "&b&lPaul": "Time to get rid of my weak Pokemon and start over..."
+        },
+        {
+            "&b&lPaul": "You're weak."
+        },
+        6,
+        [
+            {
+                "species": "Torterra",
+                "level": 100,
+                "moves": [
+                    "Stealth Rock",
+                    "Earthquake",
+                    "Wood Hammer",
+                    "Synthesis"
+                ],
+                "gender": "Male",
+                "nature": "Careful",
+                "ability": "Overgrow",
+                "item": "Leftovers",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+                    "hp": 252,
+                    "defense": 252
+                }
+            },
+            {
+                "species": "Torterra",
+                "level": 100,
+                "moves": [
+                    "rock polish",
+                    "Earthquake",
+                    "Wood Hammer",
+                    "stone edge"
+                ],
+                "gender": "Male",
+                "nature": "jolly",
+                "ability": "Overgrow",
+                "item": "soft sand",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+                    "attack": 252,
+                    "speed": 252
+                }
+            },
+            {
+                "species": "Torterra",
+                "level": 100,
+                "moves": [
+                    "Earthquake",
+                    "Wood Hammer",
+                    "stone edge"
+                ],
+                "gender": "Male",
+                "nature": "adamant",
+                "ability": "Overgrow",
+                "item": "choice band",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+                    "attack": 252,
+                    "speed": 252
+                }
+            },
+            {
+                "species": "Aggron",
+                "level": 100,
+                "moves": [
+                    "Head Smash",
+                    "Earthquake",
+                    "Aqua Tail",
+                    "Heavy Slam"
+                ],
+                "gender": "Female",
+                "nature": "Adamant",
+                "ability": "Rock Head",
+                "item": "Choice Band",
+                "ivs": {
+				    "hp": 30,
+					"attack": 31,
+					"defense": 31,
+					"speed": 31,
+					"special_defense": 31,
+					"special_attack": 30
+				},
+                "evs": {
+                    "attack": 252,
+                    "special_defense": 6,
+					"hp": 252
+                }
+            },
+            {
+                "species": "Weavile",
+                "level": 100,
+                "moves": [
+                    "Knock Off",
+                    "Ice Shard",
+                    "Icicle Crash",
+                    "Low Kick"
+                ],
+                "gender": "Female",
+                "nature": "Jolly",
+                "ability": "Pressure",
+                "item": "Life Orb",
+                "ivs": "max",
+                "evs": {
+                    "speed": 252,
+                    "attack": 252,
+					"hp": 6
+                }
+            },
+            {
+                "species": "Magmortar",
+                "level": 100,
+                "moves": [
+                    "Fire Blast",
+                    "Thunderbolt",
+                    "Focus Blast",
+                    "Hidden Power"
+                ],
+                "gender": "Female",
+                "nature": "Modest",
+                "ability": "Flame Body",
+                "item": "Assault Vest",
+                "ivs": {
+				    "hp": 30,
+					"attack": 31,
+					"defense": 31,
+					"speed": 31,
+					"special_defense": 31,
+					"special_attack": 30
+				},
+                "evs": {
+                    "speed": 252,
+                    "special_attack": 252,
+					"defense": 6
+                }
+            },
+            {
+                "species": "Nidoking",
+                "level": 100,
+                "moves": [
+                    "Earth Power",
+                    "Sucker Punch",
+                    "Ice Beam",
+                    "Sludge Wave"
+                ],
+                "gender": "Male",
+                "nature": "naive",
+                "ability": "sheer force",
+                "item": "Life Orb",
+                "ivs": "max",
+                "evs": {
+                    "speed": 252,
+                    "special_attack": 252,
+					"defense": 6
+                }
+            },
+            {
+                "species": "Gastrodon",
+                "level": 100,
+                "moves": [
+                    "Scald",
+                    "Recover",
+                    "Toxic",
+                    "Earth Power"
+                ],
+                "gender": "Male",
+                "nature": "Bold",
+                "ability": "storm drain",
+                "item": "Leftovers",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"defense": 252,
+					"hp": 252
+                }
+            },
+            {
+                "species": "electivire",
+                "level": 100,
+                "moves": [
+                    "thunderbolt",
+                    "flamethrower",
+                    "earthquake",
+                    "volt switch"
+                ],
+                "gender": "Male",
+                "nature": "hasty",
+                "ability": "motor drive",
+                "item": "life orb",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"special_attack": 252,
+					"speed": 252
+                }
+            },
+            {
+                "species": "ninjask",
+                "level": 100,
+                "moves": [
+                    "u-turn",
+                    "aerial ace",
+                    "x-scissor",
+                    "night slash"
+                ],
+                "gender": "Male",
+                "nature": "jolly",
+                "ability": "speed boost",
+                "item": "insect plate",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"attack": 252,
+					"speed": 252
+                }
+            },
+            {
+                "species": "drapion",
+                "level": 100,
+                "moves": [
+                    "knock off",
+                    "poison jab",
+                    "aqua tail",
+                    "ice fang"
+                ],
+                "gender": "Male",
+                "nature": "jolly",
+                "ability": "battle armor",
+                "item": "expert belt",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 6,
+					"attack": 252,
+					"speed": 252
+                }
+            },
+            {
+                "species": "gliscor",
+                "level": 100,
+                "moves": [
+                    "swords dance",
+                    "roost",
+                    "earthquake",
+                    "facade"
+                ],
+                "gender": "Male",
+                "nature": "careful",
+                "ability": "poison heal",
+                "item": "toxic orb",
+                "ivs": "max",
+                "evs": {
+                    "special_defense": 204,
+					"speed": 56,
+					"hp": 252
+                }
+            }
+        ],
+        {
+            "automatically_start": true,
+            "hardcore": true,
+            "exp_multiplier": 1.25
+        }
+    ],
+    "Wait": 1.0,
+    "Start": "iconic_rewards_4",
+    "Leave": [
+        
+    ],
+    "BroadcastMessage": "&b&lPaul> &fI'm here to win.",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Paul has spawned in Shiloh", "iconic_trainer"],
+	"SetPersistent": [ "server", "g4iconic", "Paul", true ],
+    "RandomOption": 2,
+    "TeleportEntity": [
+        -1181.5,
+        26.0,
+        86.5,
+        90,
+        "paul"
+    ],
+    "TeleportEntity": [
+        1474.5,
+        23.0,
+        727.5,
+        -90,
+        "paul"
+    ],
+    "SetVisible": "paul",
+    "Wait": 1500.0,
+    "BroadcastMessage": "&b&lPaul> &fI'll be back after my training is finished.",
+	"SetPersistent": [ "server", "g4iconic", "None", true ],
+    "SetInvisible": "paul"
+}
