@@ -46,7 +46,7 @@
     "Leave": [],
 
 
-    "Schedule": [ "12:00", "PST" ],
+    "Schedule": [ "11:50", "PST" ],
     "TeleportEntity": [ "gamemaster", -1050.5, 25.0, 52.5, 90 ],
     "Show": "gamemaster",
     "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: A lonely tree in a sea of orange.",
