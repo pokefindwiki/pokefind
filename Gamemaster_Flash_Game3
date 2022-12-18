@@ -46,11 +46,11 @@
     "Leave": [],
 
 
-    "Schedule": [ "11:50", "PST" ],
-    "TeleportEntity": [ "gamemaster", -1050.5, 25.0, 52.5, 90 ],
+    "Schedule": [ "12:43", "PST" ],
+    "TeleportEntity": [ "gamemaster", 139.0, 45.0, -128.0, 0 ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: A lonely tree in a sea of orange.",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: A lonely tree in a sea of orange.", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Maybe I won't get sand in my boots here...",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: Maybe I won't get sand in my boots here...", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
