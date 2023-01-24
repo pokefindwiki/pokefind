@@ -1,0 +1,638 @@
+{
+    "Key": "battle_tower",
+
+            
+    
+    "CreateEntity": {
+        "key": "Official1",
+        "name": [
+            "&d&lBattle Tower Registrar"
+        ],
+        "location": {
+            "world": "world",
+            "x": -308.5,
+            "y": 80.06250,
+            "z": 1046.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDg3MTEzNjI1MDUsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YzhhNjdiMGM3NjlkYjQzZTJjODk0YWJiN2E3YjdmNzk3NWM5MmI2N2Q4ZDUwZjE0Y2Y3NWI5OWYzOGNmODkzIn19fQ==",
+            "signature": "Thqx9rwhGp7+Au6tDGKRrnLwde9Gj1kCy0RcFLjIMPcmUHGP+3kcvsrp1JC3E2Xkq2GlAK/ruJuRodbRJcvDFvzYC7sxD5J+7EQPgfvKRgKMGKOQqnRKctDBrCrhTt3dUOuvVUsvw0PgizQTYtNV5wbTy5tEKDkSDkoD+BC6hVA/kyOPWWd3ZMBKEk6ue1DIUSJYp8TCXZ6H7baG6sA8H4oRs+vzaIE5xVNm2CFM7eLR4kCNxWgCpNdyXugKmXEh3X2nODCQen+wpcrRK+hgIn2LLXi9EMsMN7a/JXcrC5KBIPRZa4XpxRjHcYBEbHuFzNwPL1QAUiIH5N9CPRTFAUZsjTaQp/Eb/AZAQApmdcE8pv8jHy3snUZbf/DzkIduyv4UuRNr0spTG9x1Gv5QhwY6sSQwHfuREh0onJD66FR2AkFSIA5JQX4Xe6YKMdpCeuqece9kCdXw1KWCPWRsGBfQGakvF6kV5lRx0haRt6PV0J463DpPVKByUacNZL9KSHkBygAh4Ak4FQ7iEpfLwDcja/5CtByVKjYF3rnWzAGGZdetcU0joplvAOgLrGg8dIwbiEHDPm7uuiP7hqUe5/rVl/yts75j2WlpL4BWpikxLSk+e8iqyDgNI6G/sYSbHu1Y2nij8AgqOvi49lzlcqhH7QXv48717IGX260/lWQ="
+        }
+    },
+    "CreateEntity": {
+        "key": "Official2",
+        "name": [
+            "&d&lBattle Tower Judge"
+        ],
+        "location": {
+            "world": "world",
+            "x": -313.5,
+            "y": 197.0,
+            "z": 1037.5,
+            "yaw": -90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "eyJ0aW1lc3RhbXAiOjE1NDg3MTEzNjI1MDUsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YzhhNjdiMGM3NjlkYjQzZTJjODk0YWJiN2E3YjdmNzk3NWM5MmI2N2Q4ZDUwZjE0Y2Y3NWI5OWYzOGNmODkzIn19fQ==",
+            "signature": "Thqx9rwhGp7+Au6tDGKRrnLwde9Gj1kCy0RcFLjIMPcmUHGP+3kcvsrp1JC3E2Xkq2GlAK/ruJuRodbRJcvDFvzYC7sxD5J+7EQPgfvKRgKMGKOQqnRKctDBrCrhTt3dUOuvVUsvw0PgizQTYtNV5wbTy5tEKDkSDkoD+BC6hVA/kyOPWWd3ZMBKEk6ue1DIUSJYp8TCXZ6H7baG6sA8H4oRs+vzaIE5xVNm2CFM7eLR4kCNxWgCpNdyXugKmXEh3X2nODCQen+wpcrRK+hgIn2LLXi9EMsMN7a/JXcrC5KBIPRZa4XpxRjHcYBEbHuFzNwPL1QAUiIH5N9CPRTFAUZsjTaQp/Eb/AZAQApmdcE8pv8jHy3snUZbf/DzkIduyv4UuRNr0spTG9x1Gv5QhwY6sSQwHfuREh0onJD66FR2AkFSIA5JQX4Xe6YKMdpCeuqece9kCdXw1KWCPWRsGBfQGakvF6kV5lRx0haRt6PV0J463DpPVKByUacNZL9KSHkBygAh4Ak4FQ7iEpfLwDcja/5CtByVKjYF3rnWzAGGZdetcU0joplvAOgLrGg8dIwbiEHDPm7uuiP7hqUe5/rVl/yts75j2WlpL4BWpikxLSk+e8iqyDgNI6G/sYSbHu1Y2nij8AgqOvi49lzlcqhH7QXv48717IGX260/lWQ="
+        }
+    },
+    "CreateEntity": {
+        "key": "Trainer1",
+        "name": [
+            "&d&lBattle Tower Challenger"
+        ],
+        "location": {
+            "world": "world",
+            "x": -287.5,
+            "y": 197.0,
+            "z": 1037.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY3NDUzOTY0NzUyMSwKICAicHJvZmlsZUlkIiA6ICJhODUxNzQ0MDNlNjg0MDgwYWNkODU3MzhlMjI5NGNhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYVJpdmVyc09uZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZDE4Njk5Njk4NjNmNTEyZWFkZmE0ODQ0NTgxMjk2YWQ3ZmY3ZjM3OGZmZjI1NTI4Y2QzNWNkYTk4NWEyOWFjIgogICAgfQogIH0KfQ==",
+            "signature": "eKFIhTjXijS+9xssrfvD9PVJ+eZXPoV3HgshkFiM2lNONRHJ8aJD0SROuF+d1dhVa8DDsPxL0ycs2+VVAjrwa2Wao4ll+vEb4ap1hfgahm/UyIBkWzgN0WhGMudXibX1HJlIqO3P/KG+2dhfnY5N9Kq/uaPDLjBKbOdjmUZPj+IOC2UAAaUayLntQojRlRl7lN1wRy5IfN7ffBaFKxEWWcUJdQkgn1oqZlxzoVbI4aF39+MFKg0oNuv1GHpNydgdnBdQrdglhAhCc1+Y9QHQ4/2Zni2tBXmGOHSoM0c05O0HOZd5IaZEkk7e65lrT6nIWodG6ynM5dFRWlnb9wGqRP/F1fg4/eMf22u7S46aTzPhI53x0SStrxKvW9eGccNbDe6yJXL76iqshvfCmO/cWKaWGCYK1DWE/Ab+hak248+6RBs///BvRbJnxnvVnx39sKNtwNIyS3NoAO+51vPiFA7S+1XQEBtoOO4eIDPRPP8UV3rrknA+D4VmuBbDUzSWYHoPgQy38wOq91X+KCjegzyBNai2f4NJrKK4l/1dBig1ZQ0oMxUtytlAPVP2+wmUNbserqfaY1mPFNi+pbuc0wzqMA/lzITglcKgWoSeFWZjgAAOlcQwcxZPWZ2s62Y5nKN7dNK+iKX61tNmdbwEEovvXfvuUBPrK0t1YYIx93o="
+        }
+    },
+    "CreateEntity": {
+        "key": "Trainer2",
+        "name": [
+            "&d&lBattle Tower Challenger"
+        ],
+        "location": {
+            "world": "world",
+            "x": -287.5,
+            "y": 197.0,
+            "z": 1037.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY3NDU0MDE0MDcxNCwKICAicHJvZmlsZUlkIiA6ICI1ZWQ4OTJiN2UyZGU0ZjYyYjIyNmFjNjQwZDA0YmJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJmcm9zdGVkc3Vuc2hpbmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI2ZmU0ODg2YjQ0MTBiYzY2OWY3NWQ4YmFhYjRmOTdjOTAzNWU0M2JmZjYzOWI1YmRkN2RjMzY4ZTE2ZTg0OCIKICAgIH0KICB9Cn0=",
+            "signature": "XX2Qmyk4ssBiyao537Nw93ftY/YljzNIo4QAWT/CXynocmnT920VSkAAcrXqTt5Zd/zxTQhK53H8wRs685qMqIES6DJ3TWoS9Di1ojvwk7zKLJP37G7yNGA21fjLpHPzModvvpt2sggMWY0mSsUsD2OODTqznk3VPCP9guDUCcVe6O3DaQ5UwWNGEaaDtSBCwUrvJMS4BDrXXhDV/U7Nwl4krEgORlzTndnmbA+r86edmWQAjO4oL+RYXureTqiimbI3/oFjDyvzsoglNiSupaVi12rBUM71EPVsWXv4p7aoAM0tD6Hh6ao9rrux7BS45cWRD2PXtYJ91btuu437eJStWv9J9i+4F4lac/H/oykWONDOgbfI2s/GLeogXW3pIbdNDuetwuLHb/Wiqx47NFOHkNexRi+R7JL2llQWy5ZhSPHVKAIGpAQbzGaVBNFd21lkJDHvd7bONEvJcv4MPZaiCZT11Ltx+E5omDB7FvgNFdpMbZTwoPhOw9FH+i5ArLQ+J2i/Y5ZukZFEvKtHrIUWxoYOVNM8xc5rl++JBWBSY9IGw0SyeZk+E/GfN3vh1Dni73EA1uJ0872ZxrlbhV2yphTmmt8mVZkoxDSi8YNcGGZx99HZeDTCDjsJ6pzaC6TcDrSWlqJ/xh2JBkax8GQ5htBPnZE893wyUtntjSo="
+        }
+    },
+    "CreateEntity": {
+        "key": "Champion1",
+        "name": [
+            "&d&lBattle Tower Champion"
+        ],
+        "location": {
+            "world": "world",
+            "x": -287.5,
+            "y": 197.0,
+            "z": 1037.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY3NDUzOTkwMjU4MiwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZXZlMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNmMzY0OTRmOWFiMDdkYTUzNjliMzkwMzc3MTc5ZGQ2NTc1OTAyZmEyNDIxZGQ2ZjI5YzZlNWJmYmI2YTZlMCIKICAgIH0KICB9Cn0=",
+            "signature": "mZ81gHpLods2rbNrkN7sHqiTLCN0d+aStOFWID2SzycSvONovW5zpF5ZQnG2TcNbZKvzMUMsTW8473zY41WcjzO1tB71n5cq0/JcLXmIEYflfWKh83EzlPrbDH8troNxo3Msxl5gQso+NCGoYDbSnaOh/JfOaJ9RqwAJ4DqpvgYnLql5cQQmNmZftHDB5QY4F1HmUzfVLjwN4HxchCLalpj+quWnNm8oBb0sXMMQpcweY7/+wuMEonskUwylneD/PH8jkpGjC/GasceInnnfUPkZjqcl08G7tgbaZpDAMlQ+jjaXPmOWLg2d1TfbzpHUj0PPyzN3VYPldDeV3WDmVN54YAcQHK55oJbkj0DmBFSViyTkEL0unh8O13szSiXGzPYoK1j4+AMlCMy7N29cY9M3sMYCJel443A/v7FXQhddVdhJGJ4ThzBgPq1v8RciSNY0YzVPrzOMvtvqRa3ohSWIFii08uoDMYIA8Fvfprwo78EDqOxXxj+qI4NojbJYHErPg4m1muY+MvdlVIDbp6zMnHt2B/lbU7C608EjpVkg5vZuWM36IVcWZttqPlfXbo93Eh+Y3OR+CnqIGUpqS8hM5SdzGf9N9WDJFRg2iAp6wpuebRq1tMoFFgIRjXw6B5FMBq25MlOKdwMteR+b2e7+71QlpC/u9KXAZd+kdIY="
+        }
+    },
+    "CreateEntity": {
+        "key": "Champion2",
+        "name": [
+            "&d&lBattle Tower Champion"
+        ],
+        "location": {
+            "world": "world",
+            "x": -287.5,
+            "y": 197.0,
+            "z": 1037.5,
+            "yaw": 90,
+            "pitch": 0
+        },
+        "skin": {
+            "texture": "ewogICJ0aW1lc3RhbXAiIDogMTY3NDU0MDA1MDMzOCwKICAicHJvZmlsZUlkIiA6ICI0ODI1MmJmMjE0Yzk0Y2JjODZiMWRkNjgxNDA5NmYxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWNoYW5pY2FsX2hpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwNGVkMWZmMjJhZWIzMDBhOTZhOTE3ZDBiNmM2NTcwM2NiOTYzYjdjYjIwNThkZDI1ZDdmZGY5N2RiMDE0YSIKICAgIH0KICB9Cn0=",
+            "signature": "rz+mjAKertftjxxYltiRaQl83hWLG/rOM1wUeDKifWfekM9Juos43wfWL9IV1zlWRUDK2JaKU20BDW73nbzBG+UzIs+fAivZ6A1z9sSIknUgmbGh09E4uGMFJJ2iOdn6c9ibqBDqNb3lVEwZUDJw0Ijh6QJTag5zxe4byThP0DnfCemR4DGB1NG/pnhObvE8mkrMf+m4I/W2RzDhIoTKqk5czJL2tMjMOyokBshekHGcV+W6h4IIrL9gX8ufxBdUpaNoZqxRZm8+hVvpk0Y3d2KJ+jUEgAPw2qmtnLSrBrwEqkcHtw6jf1CR/jyty+EX1Up9uC6MtBWhx8swPUZ3P7a6Xr1OX0CEyjCDtut6uP57FH3CCqRYdi9dh16Dzv99iAu5KHnaw1kViFFwOXCPoxGXJODNJ8t31TZGi/mnd2Bnaq40RQQKTO2Urw4wl21FD28ak8x9yxx4KKrIp2I3ASv8raraEQ4kmKlLIkXW2KF4VdasrouJc5uEKUMtt4EnaPI4ZahVcCgScO4fslUHY+J8NccHNeujRgmcpFGwDWLOaMS+hEgHGJinh6p1vDVYH9cYW/j2R8+JGbK1OZcf5sINavcz0qN+8+qBbHv4gWrq2sfKoqTC3KCi0ObrQTn9utTKQsz8OG32BbfaMdkNHtaJqDXs7QuwESDMLBRfAMY="
+        }
+    },
+    "Show": {
+        "Trainer1": false,
+        "Trainer2": false,
+        "Official1": true,
+        "Official2": true,
+        "Champion1": false,
+        "Champion2": false
+    },
+
+    
+
+    "HighlightClickEntity": "Official1",
+    "Comment": "Main Menu",
+    "Menu": [
+        "Battle Tower",
+        6,
+        {
+        "3": {
+                "name": "&f&lBan Lists",
+                "description": [
+                    "",
+                    "Click to bring up the banlist menu which shows what Pokemon, moves, items and abilities are banned from each tier."
+                ],
+                "material": "book",
+                "enchantments": {
+                    "Sharpness": 5
+                }
+            },
+        "19": {
+                "name": "&f&lUU: UnderUsed Tier",
+                "description": [
+                    "",
+                    "Allows all Pokemon that are not designated in the OverUsed, Uber or Anything Goes tiers."
+                ],
+                "material": "poke ball"
+            },
+        "28": {
+                "name": "&f&lUU+: UnderUsed Plus Tier",
+                "description": [
+                    "",
+                    "Allows all Pokemon that are not designated in the OverUsed, Uber or Anything Goes tiers.",
+                    "",
+                    "Also allows the use of some Anniversary Pokemon."
+                ],
+                "material": "poke ball",
+                "enchantments": {
+                    "Sharpness": 5
+                }
+            },
+        "21": {
+                "name": "&f&lOU: OverUsed Tier",
+                "description": [
+                    "",
+                    "Allows all Pokemon that are not designated in the Uber or Anything Goes tiers."
+                ],
+                "material": "great ball"
+            },
+        "30": {
+                "name": "&f&lOU+: OverUsed Plus Tier",
+                "description": [
+                    "",
+                    "Allows all Pokemon that are not designated in the Uber or Anything Goes tiers.",
+                    "",
+                    "Also allows the use of some Anniversary Pokemon."
+                ],
+                "material": "great ball",
+                "enchantments": {
+                    "Sharpness": 5
+                }
+            },
+        "23": {
+                "name": "&f&lUbers: Ubers Tier",
+                "description": [
+                    "",
+                    "Allows all Pokemon that are not designated in the Anything Goes tier."
+                ],
+                "material": "ultra ball"
+            },
+        "32": {
+                "name": "&f&lUbers+: Ubers Plus Tier",
+                "description": [
+                    "",
+                    "Allows all Pokemon that are not designated in the Anything Goes tier.",
+                    "",
+                    "Also allows the use of some Anniversary Pokemon."
+                ],
+                "material": "ultra ball",
+                "enchantments": {
+                    "Sharpness": 5
+                }
+            },
+        "25": {
+                "name": "&f&lAG: Anything Goes Tier",
+                "description": [
+                    "",
+                    "Allows all Pokemon with the exception of WoC Pokemon."
+                ],
+                "material": "master ball"
+            },
+        "45": {
+                "name": "Back",
+                "description": [
+                    "",
+                    "Go back a page.",
+                    "",
+                    "Closes menu if there",
+                    "is no other page."
+                ],
+                "material": "diamond sword",
+                "durability": 3
+            },
+        "49": {
+                "name": "&a&lClose Menu",
+                "description": [
+                    "Closes this menu"
+                ],
+                "material": "barrier"
+            }
+        },
+        false
+    ],
+    "Skip": "Ban List Menu",
+    "Skip": "UU_Battle_Check",
+    "Skip": "UU+_Battle_Check",
+    "Leave": [],
+    "Leave": [],
+    "Leave": [],
+
+
+    "Comment": "Ban List Menu",
+    "Menu": [
+        "Battle Tower Ban Lists",
+        6,
+        {
+        "10": {
+            "name": "&f&lUU Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "All Anniversary Pokemon",
+                "All Shadow Pokemon",
+                "All other 'Fakemon'",
+                "",
+                "Alakazam, Amoonguss, Azelf, Azumarill, Bisharp, Blaziken, Blissey, Breloom, Celebi, Chandelure, Chansey, Clefable, Cloyster, Cobalion, Cofagrigus, Conkeldurr, Crawdaunt, Cresselia, Darmanitan, Ditto, Dragonite, Dugtrio, Entei, Espeon, Excadrill, Ferrothorn, Galvantula, Garchomp, Gastrodon, Gengar, Gliscor, Gyarados, Haxorus, Heatran, Heracross, Hippowdon, Hydreigon, Infernape, Jellicent, Jirachi, Jolteon, Kingdra, Krookodile, Landorus-Therian, Latias, Latios, Lucario, Ludicolo, Magnezone, Mamoswine, Manaphy, Mandibuzz, Medicham, Meloetta, Mesprit, Metagross, Mew, Mienshao, Milotic, Nidoking, Pelipper, Porygon-Z, Porygon2, Raikou",
+                ""
+                ],
+                "material": "poke ball"
+            },
+        "19": {
+            "name": "&f&lUU Ban List Continued",
+            "description": [
+                "",
+                "Reuniclus, Rotom-Heat, Rotom-Wash, Salamence, Scizor, Serperior, Shaymin, Skarmory, Slowbro, Slowking, Snorlax, Staraptor, Starmie, Suicune, Swampert, Tangrowth, Tentacruel, Terrakion, Thundurus, Thundurus-Therian, Togekiss, Tyranitar, Uxie, Venusaur, Volcarona, Weavile, Whimsicott, Zapdos, Zoroark, Alolan Ninetales, Galarian Weezing, Arceus, Darkrai, Deoxys, Dialga, Genesect, Giratina, Groudon, Ho-Oh, Kyogre, Kyurem, Lugia, Mewtwo, Palkia, Rayquaza, Reshiram, Shaymin-Sky, Zekrom",
+                ""
+                ],
+                "material": "poke ball"
+            },
+        "28": {
+            "name": "&f&lUU+ Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "All Shadow Pokemon",
+                "All other 'Fakemon'",
+                "All standard Pokemon banned from UU tier",
+                "",
+                "Allowed Anniversary Pokemon:",
+                "",
+                "Kyoto Alakazam, Jataro Steelix, Kyoto Rhydon, Shiloh Rhyperior, Haikou Gardevoir, Haikou Blaziken, Haikou Flygon, Kyoto Snorlax, Kyoto Arcanine, Haikou Aggron, Haikou Luxray, Haikou Ampharos, Jataro Kingdra, Shiloh Vespiquen, Shiloh Empoleon, Jataro Feraligatr, Jataro Houndoom, Haikou Milotic, Kyoto Weedle, Haikou Absol, Kyoto Dodrio, Jataro Sunflora, Zeinova Audino, Zeinova Musharna, Zeinova Alomomola, Jataro Donphan, Jataro Ursaring"
+            ],
+            "material": "poke ball",
+            "enchantments": {
+                "Sharpness": 5
+            }
+        },
+        "13": {
+            "name": "&f&lOU Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "All Anniversary Pokemon",
+                "All Shadow Pokemon",
+                "All other 'Fakemon'",
+                "",
+                "Arceus, Darkrai, Deoxys, Dialga, Genesect, Giratina, Groudon, Ho-Oh, Kyogre, Kyurem, Lugia, Mewtwo, Palkia, Rayquaza, Reshiram, Shaymin-Sky, Thundurus, Zekrom",
+                ""
+                ],
+                "material": "great ball"
+            },
+        "31": {
+            "name": "&f&lOU+ Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "All Shadow Pokemon",
+                "All other 'Fakemon'",
+                "All standard Pokemon banned from OU tier",
+                "",
+                "Allowed Anniversary Pokemon:",
+                "",
+                "All Anniversary Pokemon allowed in UU+",
+                "Jataro Scizor, Kyoto Charizard, Jataro Typhlosion, Shiloh Toxicroak, Shiloh Togekiss, Kyoto Starmie, Shiloh Bastiodon, Shiloh Mamoswine, Shiloh Roserade, Shiloh Rampardos, Shiloh Hippowdon, Shiloh Gliscor, Zeinova Druddigon, Shiloh Infernape, Kyoto Lapras, Zeinova Serperior, Jataro Crobat, Kyoto Aerodactyl, Jataro Slowking, Shiloh Gallade, Zeinova Crustle, Haikou Torkoal, Zeinova Bouffalant, Kyoto Gyarados, Zeinova Eelektross, Kyoto Muk, Jataro Porygon2"
+            ],
+            "material": "great ball",
+            "enchantments": {
+                "Sharpness": 5
+            }
+        },
+        "16": {
+            "name": "&f&lUbers Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "All Anniversary Pokemon",
+                "All Shadow Pokemon",
+                "All other 'Fakemon'",
+                ""
+                ],
+                "material": "ultra ball"
+            },
+        "34": {
+            "name": "&f&lUbers+ Ban List",
+            "description": [
+                "",
+                "The following Pokemon are banned:",
+                "",
+                "All Shadow Pokemon",
+                "All other 'Fakemon'",
+                "",
+                "Allowed Anniversary Pokemon:",
+                "All Anniversary Pokemon allowed in UU+ & OU+",
+                "Jataro Tyranitar, Haikou Salamence, Haikou Metagross, Kyoto Gengar, Shiloh Garchomp, Zeinova Golurk, Zeinova Excadrill, Jataro Meganium, Kyoto Slowbro, Zeinova Chandelure, Haikou Chimecho, Zeinova Archeops, Shiloh Porygon-Z, Kyoto Clefable"
+            ],
+            "material": "ultra ball",
+            "enchantments": {
+                "Sharpness": 5
+            }
+        },
+        "45": {
+                "name": "Back",
+                "description": [
+                    "",
+                    "Go back a page.",
+                    "",
+                    "Closes menu if there",
+                    "is no other page."
+                ],
+                "material": "diamond sword",
+                "durability": 3
+            },
+        "49": {
+                "name": "&a&lClose Menu",
+                "description": [
+                    "Closes this menu"
+                ],
+                "material": "barrier"
+            }
+        },
+        false
+    ],
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Ban List Menu",
+    "Skip": "Main Menu",
+    "Leave": [],
+    "Leave": [],
+
+    "Comment": "UU_Battle_Check",
+    "ProgressiveDisableCommand": [ "/pheal", "/pc", "/tpa", "/trade", "/cbattle", "/spawn", "/hub", "/warp" ],
+    "SendMessage": "Checking for illegal Pokemon, moves, abilities and items...",
+    "If": [],
+    "HasPokemon": { 
+        "species": [ "Alakazam", "Amoonguss", "Azelf", "Azumarill", "Bisharp", "Blaziken",  "Blissey",  "Breloom",  "Celebi",  "Chandelure",  "Chansey",  "Clefable",  "Cloyster",  "Conkeldurr",  "Crawdaunt",  "Cresselia",  "Darmanitan",  "Ditto",  "Dragonite",  "Dugtrio",  "Entei",  "Espeon",  "Excadrill",  "Ferrothorn",  "Galvantula",  "Garchomp",  "Gastrodon",  "Gengar",  "Gliscor",  "Gyarados",  "Haxorus",  "Heatran",  "Heracross",  "Hippowdon",  "Hydreigon",  "Infernape",  "Jellicent",  "Jirachi",  "Jolteon",  "Kingdra",  "Krookodile",  "Landorus",  "Latias",  "Latios",  "Lucario",  "Magnezone",  "Mamoswine",  "Manaphy",  "Mandibuzz",  "Medicham",  "Meloetta",  "Mesprit",  "Metagross",  "Mew",  "Mienshao",  "Nidoking",  "Pelipper",  "Porygon-Z",  "Porygon2",  "Raikou",  "Reuniclus", "Salamence",  "Scizor",  "Serperior",  "Shaymin",  "Skarmory",  "Slowbro",  "Slowking",  "Snorlax",  "Staraptor",  "Starmie",  "Suicune",  "Swampert",  "Tangrowth",  "Tentacruel",  "Terrakion",  "Thundurus",  "Togekiss",  "Tyranitar",  "Uxie",  "Venusaur",  "Volcarona",  "Weavile",  "Whimsicott",  "Zapdos",  "Zoroark",  "Alolan Ninetales", "Arceus", "Darkrai", "Deoxys", "Dialga", "Genesect", "Giratina",  "Groudon",  "Ho-Oh",  "Kyogre",  "Kyurem",  "Lugia",  "Mewtwo",  "Palkia",  "Rayquaza",  "Reshiram", "Zekrom", "Cobalion", "Cofagrigus", "Ludicolo", "Milotic", "Galarian_Weezing" ]
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "If": [],
+    "HasForm": "wash_rotom",
+    "SendMessage": "Illegal Form detected(Wash-Rotom). Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "If": [],
+    "HasForm": "heat_rotom",
+    "SendMessage": "Illegal Form detected(Heat-Rotom). Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+
+    "If": [],
+    "HasPokemon": { 
+        "skin": [ "Anniversary", "Shadow" ]
+    },
+    "SendMessage": "Illegal Pokemon detected(Shadows/Anniversaries). Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "NoDuplicateParty": [],
+    "LimitParty": 3,
+    "SetPokemonLevel": 50,
+    "Skip": "UU_Battle_Start",
+
+
+    "Comment": "UU_Battle_Start",
+    "HealPokemon": [],
+    "Show": "Trainer1",
+    "Wait": 1.0,
+    "MoveEntity": [
+        "Trainer1",
+        -306.5,
+        197.0,
+        1037.5
+    ],
+    "MoveEntity": [
+        "Trainer1",
+        -306.5,
+        197.0,
+        1040.5
+    ],
+    "EntityLook": [
+        "Trainer1",
+        -180
+    ],
+    "BattleNpc": [
+        "Trainer1",
+        {
+            "&c&lBT Test Trainer": "I challenge you!"
+        },
+        {
+            "&c&lBT Test Trainer": "......"
+        },
+        {
+            "&c&lBT Test Trainer": "..."
+        },
+        3,
+        "Battle_Tower_Tier_1",
+        {
+            "exp_multiplier": 0,
+            "automatically_start": true,
+            "conditional": true
+        }
+    ],
+    "Skip": "UnderUsed Battle Won",
+    "Skip": "Battle Lost",
+    
+
+
+
+    "Comment": "UU+_Battle_Check",
+    "ProgressiveDisableCommand": [ "/pheal", "/pc", "/tpa", "/trade", "/cbattle", "/spawn", "/hub", "/warp" ],
+    "SendMessage": "Checking for illegal Pokemon, moves, abilities and items...",
+    "If": [],
+    "HasPokemon": { 
+        "species": [ "Alakazam", "Alolan Ninetales", "Arceus", "Azelf", "Azumarill", "Blaziken", "Blissey", "Breloom", "Celebi", "Chansey", "Clefable", "Cloyster", "Cresselia", "Darkrai", "Deoxys", "Dialga", "Dragonite", "Dugtrio", "Froslass", "Garchomp", "Gengar", "Giratina", "Gliscor", "Groudon", "Gyarados", "Heatran", "Hippowdon", "Ho-Oh", "Jirachi", "Kingdra", "Kyogre", "Latias", "Latios", "Lucario", "Lugia", "Magnezone", "Mamoswine", "Manaphy", "Metagross", "Mew", "Mewtwo", "Palkia", "Raikou", "Rayquaza", "Salamence", "Scizor", "Shaymin", "Skarmory", "Staraptor", "Starmie", "Tangrowth", "Tentacruel", "Togekiss", "Tyranitar", "Weavile", "Wobbuffet", "Zapdos", "haikou_aggron", "kyoto_alakazam", "kyoto_charizard", "kyoto_dragonite", "haikou_flygon", "kyoto_gengar", "haikou_metagross", "haikou_salamence", "jataro_scizor", "kyoto_snorlax",  "jataro_typhlosion", "jataro_tyranitar", "shiloh_bastiodon", "haikou_breloom", "shiloh_empoleon", "kyoto_exeggutor", "jataro_feraligatr", "jataro_houndoom", "shiloh_garchomp", "shiloh_luxray", "shiloh_mamoswine", "haikou_milotic", "shiloh_rampardos", "shiloh_roserade", "haikou_sceptile", "kyoto_starmie", "shiloh_togekiss", "shiloh_toxicroak", "kyoto_venusaur", "shiloh_vespiquen", "kyoto_weedle", "zeinova_druddigon", "zeinova_excadrill", "shiloh_gliscor", "zeinova_golurk", "zeinova_gothitelle", "jataro_heracross", "shiloh_hippowdon", "shiloh_infernape", "jataro_kingdra", "kyoto_lapras", "zeinova_scolipede", "kyoto_tentacruel", "kyoto_aerodactyl", "jataro_crobat", "shiloh_froslass", "shiloh_gallade", "zeinova_hydreigon", "jataro_meganium", "zeinova_musharna", "zeinova_serperior", "haikou_slaking", "kyoto_slowbro", "jataro_slowking", "shiloh_torterra", "zeinova_alomomola", "zeinova_archeops", "zeinova_bouffalant", "zeinova_chandelure", "haikou_chimecho", "kyoto_clefable", "zeinova_crustle", "jataro_donphan", "zeinova_eelektross", "kyoto_gyarados", "haikou_ludicolo", "kyoto_muk", "jataro_porygon2", "shiloh_porygon-z", "shiloh_tangrowth", "haikou_torkoal", "jataro_ursaring" ]
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "DisableMove": [ "fissure", "sheer cold", "guillotine", "horn drill", "swagger" ],
+
+    "If": [],
+    "HasPokemon": {
+        "skin": "Shadow"
+    },
+    "SendMessage": "Illegal Pokemon detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "If": [],
+    "HasForm": "wash_rotom",
+    "SendMessage": "Illegal Pokemon Form detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Drizzle"
+    },
+    "SendMessage": "Illegal Ability detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Drought"
+    },
+    "SendMessage": "Illegal Ability detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Sand Stream"
+    },
+    "SendMessage": "Illegal Ability detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+    "If": [],
+    "HasPokemon": {
+        "ability": "Snow Warning"
+    },
+    "SendMessage": "Illegal Ability detected. Check the ban list and alter your team.",
+    "Skip": 2,
+    "Leave": [],
+    "Leave": [],
+
+
+    "NoDuplicateParty": [],
+    "LimitParty": 3,
+    "SetPokemonLevel": 50,
+    "Skip": "UU+_Battle_Start",
+
+
+
+    "Comment": "UU+_Battle_Start",
+    "HealPokemon": [],
+    "Show": "Trainer0",
+    "Wait": 1.0,
+    "MoveEntity": [
+        "Trainer0",
+        932.5,
+        43.0,
+        914.5
+    ],
+    "Show": {
+        "Trainer1": true,
+        "Trainer0": false
+    },
+    "BattleNpc": [
+        "Trainer1",
+        {
+            "&c&lBT Test Trainer": "I challenge you!"
+        },
+        {
+            "&c&lBT Test Trainer": "......"
+        },
+        {
+            "&c&lBT Test Trainer": "..."
+        },
+        3,
+        "Battle_Tower_Tier_2",
+        {
+            "automatically_start": true,
+            "exp_multiplier": 0,
+            "conditional": true
+        }
+    ],
+    "Skip": "UU+ Battle Won",
+    "Skip": "Battle Lost",
+
+    "Comment": "UnderUsed Battle Won",
+    "Show": {
+        "Trainer0": false,
+        "Trainer1": false
+    },
+    "HealPokemon": [],
+    "Add": [ "bt_round", 1, true ],
+    "Add": [ "bt_round_temp", 1 ],
+    "SendMessage": "Congratulations on winning round [bt_round]!",
+    "Skip": "UU_Battle_Start",
+
+
+    "Comment": "UU+ Battle Won",
+    "Show": {
+        "Trainer0": false,
+        "Trainer1": false
+    },
+    "HealPokemon": [],
+    "Add": [ "bt_round", 1, true ],
+    "Add": [ "bt_round_temp", 1 ],
+    "SendMessage": "Congratulations on winning round [bt_round]!",
+    "Skip": "UU+_Battle_Start",
+
+
+    "Comment": "Battle Lost",
+    "Show": {
+        "Trainer0": false,
+        "Trainer1": false
+    },
+    "HealPokemon": [],
+    "SendMessage": "You lose.",
+    "Set": [ "bt_round", 0, true ],
+    "Set": [ "bt_round_temp", 0 ],
+    "Teleport": [
+        932.5,
+        43.0,
+        919.5
+    ],
+    "Leave": [],
+
+
+
+    "GlobalHologram": [
+        932.5,
+        45.0,
+        919.5,
+        "&aThis is a test/demo of the new Battle Tower system.",
+        "&aThere will likely be bugs, if you find one see if its known before reporting it.",
+        "&cThere are intentionally no rewards.",
+        "&cGen 5 Pokemon and WoC are intentionally not banned atm."
+    ]
+}
