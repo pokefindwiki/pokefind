@@ -36,23 +36,17 @@
         }
     ],
     "Wait": 1.0,
-    "RandomOption": 6,
-"GiveEgg": "halloween_2017",
-"GiveEgg": "halloween_2018",
-"GiveEgg": "halloween_2019",
-"GiveEgg": "halloween_2020",
-"GiveEgg": "halloween_2021",
-"GiveEgg": "best_of_halloween",
+    "GiveEgg": [ "shiny_5", 2 ],
     "Server": [],
     "Hide": "gamemaster",
     "Leave": [],
 
 
-    "Schedule": [ "09:03", "PST" ],
-    "TeleportEntity": [ "gamemaster", 935.5, 20.0, 688.5, 90, -25 ],
+    "Schedule": [ "20:32", "PST" ],
+    "TeleportEntity": [ "gamemaster", 505.5, 63.0, -23.5, 180, -25 ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: I must have got washed out here by the current, I wonder if I can get that boats attention..",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: I must have got washed out here by the current, I wonder if I can get that boats attention.", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: This place is so haunting!",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 4 to win a prize! Hint: This place is so haunting!", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
