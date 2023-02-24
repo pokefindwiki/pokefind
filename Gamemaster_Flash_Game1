@@ -45,7 +45,7 @@
 
 
     "Schedule": [ "20:30", "PST" ],
-    "TeleportEntity": [ "gamemaster", 798 46.0, -573.5, -180, 75 ],
+    "TeleportEntity": [ "gamemaster", 798.5, 46.0, -573.5, -180, 75 ],
     "Show": "gamemaster",
     "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Squirtle, I choose you!.",
     "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 5(s11) to win a prize! Hint: Squirtle, I choose you!", "flash_events"],
