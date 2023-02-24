@@ -42,7 +42,7 @@
     "Leave": [],
 
 
-    "Schedule": [ "19:24", "PST" ],
+    "Schedule": [ "19:30", "PST" ],
     "TeleportEntity": [ "gamemaster", -243.5, 47.2, -186.5, 180, -25 ],
     "Show": "gamemaster",
     "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Hopefully the fire doesn't go out tonight.",
