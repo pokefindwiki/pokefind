@@ -46,7 +46,7 @@
     "TeleportEntity": [ "gamemaster", -243.5, 47.2, -186.5, 180, -25 ],
     "Show": "gamemaster",
     "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Hopefully the fire doesn't go out tonight.",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 5(s8) to win a prize! Hint: Hopefully the fire doesn't go out tonight.", "flash_events"],
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 5(s11) to win a prize! Hint: Hopefully the fire doesn't go out tonight.", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
