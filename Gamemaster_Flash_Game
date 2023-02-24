@@ -36,17 +36,19 @@
         }
     ],
     "Wait": 1.0,
+    "RandomOption": 2,
     "GiveEgg": [ "shiny_5", 2 ],
+    "GiveEgg": [ "valentines_2023", 2 ],
     "Server": [],
     "Hide": "gamemaster",
     "Leave": [],
 
 
-    "Schedule": [ "19:30", "PST" ],
-    "TeleportEntity": [ "gamemaster", -243.5, 47.2, -186.5, 180, -25 ],
+    "Schedule": [ "20:30", "PST" ],
+    "TeleportEntity": [ "gamemaster", 798 46.0, -573.5, -180, 75 ],
     "Show": "gamemaster",
-    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Hopefully the fire doesn't go out tonight.",
-    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 5(s11) to win a prize! Hint: Hopefully the fire doesn't go out tonight.", "flash_events"],
+    "BroadcastMessage": "&b&lGamemaster&f: &cFlash Game! &fBe the first to find where I'm hiding to win a prize! &f Hint: Squirtle, I choose you!.",
+    "SendDiscordMessage": ["pworld_rare_spawns", "Flash Game! Be the first to find where the Gamemaster is hiding in Gen 5(s11) to win a prize! Hint: Squirtle, I choose you!", "flash_events"],
     "Set": [ "server", "gamemaster_found", "not_found", true ],
     "Leave": [],
     "Key": "flash_game"
