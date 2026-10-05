@@ -1,0 +1,50 @@
+{
+    "Command": [ true, "Opens the Fishing Shop!", "/fmarket", "/fshop", "fishingshop" ],
+    "ShopMenu": [
+        "Fishing Shop",
+        6,
+        "Coins",
+            {
+                "": {
+                    "material": "beginner_rod",
+                    "buy": 2500
+                },
+                "": {
+                    "material": "silver_rod",
+                    "buy": 50000
+                },
+                "": {
+                    "material": "golden_rod",
+                    "buy": 150000
+                },
+                "": {
+                    "material": "star_rod",
+                    "buy": 200000
+                },
+                "": {
+                    "material": "master_rod",
+                    "buy": 500000
+                },
+                "": {
+                    "material": "simple_bait",
+                    "buy": 25
+                },
+                "": {
+                    "material": "magnetic_bait",
+                    "buy": 100
+                },
+                "": {
+                    "material": "wild_bait",
+                    "buy": 150
+                },
+                "": {
+                    "material": "delicate_hook",
+                    "buy": 500
+                },
+                "": {
+                    "material": "fishfinder",
+                    "buy": 5000
+                }
+            }
+       ]
+}
