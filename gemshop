@@ -1,0 +1,374 @@
+{
+    "Command": [ true, "Opens the Miner & Excavation Job Shop!", "/gmarket", "/gemmarket" ],
+    "ShopMenu": [
+        "Gem Shop",
+        6,
+        "Coins",
+            {
+                "": {
+                    "material": "AGATE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "ALEXANDRITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "ALTISITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "AMAKINITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "AMAZONITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "AMBER",
+                    "sell": 750
+                },
+                "": {
+                    "material": "AMETHYST",
+                    "sell": 250
+                },
+                "": {
+                    "material": "ANDALUSITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "APATITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "AQUAMARINE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "AVENTURINE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "AXINITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "AZURITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "BENITOITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "BERYL",
+                    "sell": 500
+                },
+                "": {
+                    "material": "BLOODSTONE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "BLUE_GARNET",
+                    "sell": 750
+                },
+                "": {
+                    "material": "BLUE_MOON_DIAMOND",
+                    "sell": 2500
+                },
+                "": {
+                    "material": "CALCITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "CARAL_GEM",
+                    "sell": 750
+                },
+                "": {
+                    "material": "CARNELIAN",
+                    "sell": 250
+                },
+                "": {
+                    "material": "CELESTITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "CHAROITE",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "CHRYSOPRASE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "CINNABAR",
+                    "sell": 250
+                },
+                "": {
+                    "material": "CITRINE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "CULLINAN_DIAMOND",
+                    "sell": 750
+                },
+                "": {
+                    "material": "DIOPTASE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "DOLOMITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "ERYTHRITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "FELDSPAR",
+                    "sell": 250
+                },
+                "": {
+                    "material": "FLUORITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "GALENA",
+                    "sell": 250
+                },
+                "": {
+                    "material": "GARNET",
+                    "sell": 250
+                },
+                "": {
+                    "material": "GRANDIDIERITE",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "GRAPHITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "GYPSUM",
+                    "sell": 250
+                },
+                "": {
+                    "material": "HALITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "HAMBERGITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "HEMATITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "HIDDENITE",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "HOPE_DIAMOND",
+                    "sell": 750
+                },
+                "": {
+                    "material": "HOWLITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "IOLITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "JADE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "JASPER",
+                    "sell": 250
+                },
+                "": {
+                    "material": "JEREMEJEVITE",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "KUNZITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "KYANITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "LABRADORITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "LARIMAR",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "LEPIDOLITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "MAGNETITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "MALACHITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "MICA",
+                    "sell": 250
+                },
+                "": {
+                    "material": "MOLDAVITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "MUSGRAVITE",
+                    "sell": 2500
+                },
+                "": {
+                    "material": "NEPHRITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "ONYX",
+                    "sell": 250
+                },
+                "": {
+                    "material": "OPAL",
+                    "sell": 750
+                },
+                "": {
+                    "material": "PAINITE",
+                    "sell": 2500
+                },
+                "": {
+                    "material": "PEARL",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "PERIDOT",
+                    "sell": 250
+                },
+                "": {
+                    "material": "PINK_STAR_DIAMOND",
+                    "sell": 750
+                },
+                "": {
+                    "material": "POUDRETTEITE",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "PREHNITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "PYRITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "RED_BERYL",
+                    "sell": 750
+                },
+                "": {
+                    "material": "RHODOCHROSITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "ROSE_QUARTZ",
+                    "sell": 750
+                },
+                "": {
+                    "material": "RUBY",
+                    "sell": 750
+                },
+                "": {
+                    "material": "SCAPOLITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "SELENITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "SERENDIBITE",
+                    "sell": 2500
+                },
+                "": {
+                    "material": "SERPENTINE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "SMOKY_QUARTZ",
+                    "sell": 250
+                },
+                "": {
+                    "material": "SODALITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "SPINEL",
+                    "sell": 750
+                },
+                "": {
+                    "material": "SUGILITE",
+                    "sell": 1250
+                },
+                "": {
+                    "material": "TAAFFEITE",
+                    "sell": 2500
+                },
+                "": {
+                    "material": "TALC",
+                    "sell": 250
+                },
+                "": {
+                    "material": "TANZANITE",
+                    "sell": 250
+                },
+                "": {
+                    "material": "TIGERS_EYE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "TOPAZ",
+                    "sell": 750
+                },
+                "": {
+                    "material": "TOURMALINE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "TURQUOISE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "UVAROVITE",
+                    "sell": 750
+                },
+                "": {
+                    "material": "VARISCITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "VESUVIANITE",
+                    "sell": 500
+                },
+                "": {
+                    "material": "ZIRCON",
+                    "sell": 500
+                },
+                "": {
+                    "material": "ZOISITE",
+                    "sell": 500
+                }
+            }
+       ]
+}
