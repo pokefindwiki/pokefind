@@ -1,5 +1,26 @@
 {
-    "Command": [ true, "Opens the Fishing Shop!", "/fmarket", "/fshop", "fishingshop" ],
+    "CreateEntity": {
+            "key": "Fishing_Shop",
+            "name": [ "&b&lFisherman Marvin", "&3Fishing Shop" ],
+			"look":  true,
+            "location": {
+                "world": "world",
+                "x": -198.5,
+                "y": 71.0,
+                "z": -9.0,
+                "yaw": -90,
+                "pitch": 0
+            },
+            "skin": {
+                "texture": "eyJ0aW1lc3RhbXAiOjE1MzgxMjY5OTA2NTcsInByb2ZpbGVJZCI6ImVlZTE0ZDlmMDUwOTQzYzQ4Y2JkNjQ4ZWYwZjUwNDY5IiwicHJvZmlsZU5hbWUiOiJZdWtpaVoiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5MjEyYTkzZmJjZTljZjQ3NmJkY2I5MzMzMjJlNWZjZjM3MDczZDZjOWUzNDg1NmNiOGRlOTJkNTc0ZjA1MjYifX19",
+				"signature": "MLLhZneaTjgtmlImDrYljciKmcxKSk34EzKp5J5U1o6ymI1aAGvIHHNbd5L+C5kw4JGXXBMEjd0rZRgn9AWL1knLlq0L/Pe3hwOKJ+1S1WGaJoYgQhSSNNKto5O7q27vV7zrWpqwmEupQztWnKf7bbmHBCW0t/o4KSRMLyTsXubzWKet0jJij3Y2SYcweKlRUA1zfJrdC7V44QiHj9AKlDHAEdW3tMBq5EZZvNhHikGcFaZFTTt1oND2HWi3C5drwsEDc4+SZPzRnmZQvlbLD9oeiSQCz0u1h/2igHh5e3qMrNnFnChkz17v2MKUQxZsUgog4obHfH1aYFd68jFDP5T6msshKrmqnBh844Y73eEqeGZFRuZuSZxOeTJwq2ithyt8OlWnjTCcJ8kkxI/4p8KyuVPpPv3uF7Ett0RPP0XUL2mnUuIXlhR3TKs7G3bn5fXYDJESQRyNwp66XQoooVPniddW5qnqenfgexgkOJXbaLEImtDDGZVtEd1f24rvTJOr6cs/e3ezmtJq3EWW1V4xpdeIOQasaei0qTbxrPiSFeMnkE9TUpA7ZXU/rXQ4/77/m1I7EHe/oCjZ257TSYQfclGNEO4suFUTUJpaXDn58yBNi6yFDj5MH2wgZyRLrkx/r7L+1uhd0qwbZrQonOlPGCeTKpi777PiRyM26T4="
+            }
+    },
+    "Comment": "Start",
+	"Show": {
+	    "Fishing_Shop": true
+	},	
+    "ClickEntity": "Fishing_Shop",
     "ShopMenu": [
         "Fishing Shop",
         6,
