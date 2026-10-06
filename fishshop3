@@ -4,7 +4,7 @@
             "name": [ "&b&lFisherman Marvin", "&3Fishing Shop" ],
 			"look":  true,
             "location": {
-                "world": "world",
+                "world": "survival",
                 "x": -198.5,
                 "y": 71.0,
                 "z": -9.0,
